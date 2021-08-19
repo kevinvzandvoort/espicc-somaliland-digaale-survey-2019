@@ -12,7 +12,7 @@ You can clone the repository or download the zip from this URL: <https://github.
 
 ### Questionnaires
 
-This survey was implemented using Open Data Kit, on Android tablets supported by LSHTM Open Data Kit <https://opendatakit.lshtm.ac.uk>
+This survey was implemented using Open Data Kit. Android tablets were provided by LSHTM Open Data Kit <https://opendatakit.lshtm.ac.uk>
 
 - Questionnaires were programmed in xlsx, and can be found in the `./questionnaire/xlsx` folder
 - They were converted in xls files uploaded to an ODK server and used with *ODK Collect* during fieldwork. The xls files can be found in the `./questionnaire/xls` folder.
