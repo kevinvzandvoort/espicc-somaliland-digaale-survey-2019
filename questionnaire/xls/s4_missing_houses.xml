@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<h:head>
+		<h:title>ESPICC S6 Missing Household</h:title>
+		<model>
+			<submission base64RsaPublicKey="REMOVED"/>
+			<instance>
+				<questionnaire6 id="espicc_digaale_s6" version="401">
+					<start/>
+					<today/>
+					<deviceid/>
+					<subscriberid/>
+					<simserial/>
+					<phonenumber/>
+					<username/>
+					<email/>
+					<s6_c1>
+						<s6_c1_q1/>
+						<s6_c1_q2/>
+						<s6_c1_q3/>
+						<s6_c1_q3_other/>
+						<s6_c1_q4/>
+						<s6_c1_q5/>
+					</s6_c1>
+					<end/>
+					<meta>
+						<instanceID/>
+					</meta>
+				</questionnaire6>
+			</instance>
+			<bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/questionnaire6/start" type="dateTime"/>
+			<bind jr:preload="date" jr:preloadParams="today" nodeset="/questionnaire6/today" type="date"/>
+			<bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/questionnaire6/deviceid" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/questionnaire6/subscriberid" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="simserial" nodeset="/questionnaire6/simserial" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/questionnaire6/phonenumber" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="username" nodeset="/questionnaire6/username" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="email" nodeset="/questionnaire6/email" type="string"/>
+			<bind nodeset="/questionnaire6/s6_c1/s6_c1_q1" type="int"/>
+			<bind nodeset="/questionnaire6/s6_c1/s6_c1_q2" type="string"/>
+			<bind nodeset="/questionnaire6/s6_c1/s6_c1_q3" type="select"/>
+			<bind nodeset="/questionnaire6/s6_c1/s6_c1_q3_other" relevant="selected(../s6_c1_q3, 'other')" type="string"/>
+			<bind nodeset="/questionnaire6/s6_c1/s6_c1_q4" type="select1"/>
+			<bind nodeset="/questionnaire6/s6_c1/s6_c1_q5" type="string"/>
+			<bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/questionnaire6/end" type="dateTime"/>
+			<bind jr:preload="uid" nodeset="/questionnaire6/meta/instanceID" readonly="true()" type="string"/>
+		</model>
+	</h:head>
+	<h:body>
+		<group ref="/questionnaire6/s6_c1">
+			<input ref="/questionnaire6/s6_c1/s6_c1_q1">
+				<label>Household ID</label>
+			</input>
+			<input ref="/questionnaire6/s6_c1/s6_c1_q2">
+				<label>Household Address</label>
+			</input>
+			<select ref="/questionnaire6/s6_c1/s6_c1_q3">
+				<label>Why did these people leave?</label>
+				<item>
+					<label>Travelled to rural area to get camel milk or meat</label>
+					<value>1</value>
+				</item>
+				<item>
+					<label>Travelled with animals to rural area because of rainy season</label>
+					<value>2</value>
+				</item>
+				<item>
+					<label>Went to Hargeisa with family (temporarily)</label>
+					<value>3</value>
+				</item>
+				<item>
+					<label>Went elsewhere (temporarily)</label>
+					<value>4</value>
+				</item>
+				<item>
+					<label>Relocated to Hargeisa (definite)</label>
+					<value>5</value>
+				</item>
+				<item>
+					<label>Relocated elsewhere (definite)</label>
+					<value>6</value>
+				</item>
+				<item>
+					<label>Household member went to prison, so temporarily moved</label>
+					<value>7</value>
+				</item>
+				<item>
+					<label>Household member sick, so temporarily moved</label>
+					<value>8</value>
+				</item>
+				<item>
+					<label>Relocated to different house within Digaale</label>
+					<value>9</value>
+				</item>
+				<item>
+					<label>Conflict within the family</label>
+					<value>10</value>
+				</item>
+				<item>
+					<label>Divorce</label>
+					<value>11</value>
+				</item>
+				<item>
+					<label>Don't know</label>
+					<value>97</value>
+				</item>
+				<item>
+					<label>Refuse to answer</label>
+					<value>98</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>other</value>
+				</item>
+			</select>
+			<input ref="/questionnaire6/s6_c1/s6_c1_q3_other">
+				<label>Specify other.</label>
+			</input>
+			<select1 ref="/questionnaire6/s6_c1/s6_c1_q4">
+				<label>How long have they left?</label>
+				<item>
+					<label>1 week</label>
+					<value>1</value>
+				</item>
+				<item>
+					<label>2 weeks</label>
+					<value>2</value>
+				</item>
+				<item>
+					<label>3 weeks</label>
+					<value>3</value>
+				</item>
+				<item>
+					<label>1 month</label>
+					<value>4</value>
+				</item>
+				<item>
+					<label>2 months</label>
+					<value>5</value>
+				</item>
+				<item>
+					<label>3 months</label>
+					<value>6</value>
+				</item>
+				<item>
+					<label>4 months</label>
+					<value>7</value>
+				</item>
+				<item>
+					<label>5 months</label>
+					<value>8</value>
+				</item>
+				<item>
+					<label>6 months</label>
+					<value>9</value>
+				</item>
+				<item>
+					<label>7 months</label>
+					<value>10</value>
+				</item>
+				<item>
+					<label>8 months</label>
+					<value>11</value>
+				</item>
+				<item>
+					<label>9 months</label>
+					<value>12</value>
+				</item>
+				<item>
+					<label>10 months</label>
+					<value>13</value>
+				</item>
+				<item>
+					<label>11 months</label>
+					<value>14</value>
+				</item>
+				<item>
+					<label>1 year</label>
+					<value>15</value>
+				</item>
+				<item>
+					<label>2 years</label>
+					<value>16</value>
+				</item>
+				<item>
+					<label>3 years</label>
+					<value>17</value>
+				</item>
+				<item>
+					<label>4 years</label>
+					<value>18</value>
+				</item>
+				<item>
+					<label>5 years</label>
+					<value>19</value>
+				</item>
+				<item>
+					<label>&gt;5 years</label>
+					<value>20</value>
+				</item>
+			</select1>
+			<input ref="/questionnaire6/s6_c1/s6_c1_q5">
+				<label>Comment</label>
+			</input>
+		</group>
+	</h:body>
+</h:html>

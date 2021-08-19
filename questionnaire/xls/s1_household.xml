@@ -1,0 +1,1760 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<h:head>
+		<h:title>ESPICC S1 Household</h:title>
+		<model>
+			<submission base64RsaPublicKey="REMOVED"/>
+			<itext>
+				<translation lang="English (en)">
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/8:label">
+						<value>protected spring</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_q3:label">
+						<value>Date for follow-up survey</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/lst/s1_c4_q2/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q1:label">
+						<value>Household ID</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/5:label">
+						<value>tubewell/borehole</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/1:label">
+						<value>firewood</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4:label">
+						<value>How long does it take to go from the water source to the house?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5:hint">
+						<value>During last six months</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/5:label">
+						<value>1h-2h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/6:label">
+						<value>2h-4h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/7:label">
+						<value>4h-8h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/8:label">
+						<value>8h-24h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/9:label">
+						<value>24h-48h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/10:label">
+						<value>>48h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5:label">
+						<value>Joined the household in the last three years?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/1:label">
+						<value>At household</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/4:label">
+						<value>processed solid fuel</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/9:label">
+						<value>unprotected spring</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6:label">
+						<value>Is respondent</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q4/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/3:label">
+						<value>Snuff</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q4:label">
+						<value>Household consent participate</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1:label">
+						<value>When did your family settle in Digaale?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5:label">
+						<value>Joined the household in the last six months?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4:hint">
+						<value>During last six months</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/8:label">
+						<value>diesel</value>
+					</text>
+					<text id="/questionnaire1/s1_c5_z/s1_c5:hint">
+						<value>(Ask participant to do their best to remember all contacts of participant for tomorrow.)</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2:label">
+						<value>Sex</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3:label">
+						<value>What is the main source of drinking water for members of your household?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/1:label">
+						<value>&lt;1 year ago</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_returntext:label">
+						<value>We will return in <output value=" /questionnaire1/consented/s1_c4/friday_twodays "/> days (<output value=" /questionnaire1/consented/s1_c4/suggest_return_formatted "/>) for the follow-up questionnaire. Can you confirm that this date will work fine?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/3:label">
+						<value>LPG</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2/2:label">
+						<value>female</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/11:label">
+						<value>tanker truck</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2:label">
+						<value>Sex</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/4:label">
+						<value>30mins-1h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_q3:hint">
+						<value>Confirm date, aim to do in <output value=" /questionnaire1/consented/s1_c4/friday_twodays "/> days</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x1:label">
+						<value>Name or initials</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/1:label">
+						<value>piped into dwelling</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4_n:label">
+						<value>If there are any, can you list any household members who have left to live somewhere else during last six months?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2/2:label">
+						<value>female</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q3:label">
+						<value>Family/household name</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/6:label">
+						<value>torches</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2:label">
+						<value>Sex</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5:label">
+						<value>Is there water leakage from the walls or roof when it rains?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4_n:hint">
+						<value>Add a new group for each person</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/1:label">
+						<value>Smoke</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6:label">
+						<value>Does anyone who currently lives in the household smoke, uses khat, or uses snuff?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x1:label">
+						<value>Name or initials</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/3:label">
+						<value>2-3 years ago</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/3:label">
+						<value>15-30mins</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q4/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3:label">
+						<value>Household members</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2/1:label">
+						<value>male</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5_n:label">
+						<value>If there are any, can you list any household members who have died during the last six months?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3:hint">
+						<value>In years</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/2:label">
+						<value>piped into compound</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/12:label">
+						<value>cart with small tank/drum</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x6:label">
+						<value>Location of death</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/6:label">
+						<value>protected well</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/9:label">
+						<value>electricity</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/2:label">
+						<value>charcoal</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/4:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6:hint">
+						<value>Is this the person you are currently talking to?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/7:label">
+						<value>solar</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/4:label">
+						<value>&gt;3 years ago</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q2:label">
+						<value>How many of these separate rooms are places to sleep?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/14:label">
+						<value>bottled water</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/7:label">
+						<value>unprotected well (e.g. shallow well)</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5_n:hint">
+						<value>Add a new group for each person</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q2/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/5:label">
+						<value>kerosene ehanol</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6:label">
+						<value>Is there a draft inside the house?</value>
+					</text>
+					<!-- MANUAL EDIT -->
+					<text id="/questionnaire1/consented/s1_c4/lst/s1_c4_q1:label">
+						<value>We would like to invite the following individual for the follow-up survey:</value>
+					</text>
+					<!-- END MANUAL -->
+					<text id="/questionnaire1/consented/s1_c4/lst/s1_c4_q2:label">
+						<value>Can we select this individual for the contact-survey and nasopharyngeal swab?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8:label">
+						<value>Is ventilation present in the cooking room?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x7:label">
+						<value>Cause of death</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7:label">
+						<value>What sort of fuel is used inside the house? Can select MULTIPLE answers.</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x3:label">
+						<value>Age &lt;span style=&quot;color: red&quot;&gt;(Always fill in years, NOT months!)&lt;/span&gt;</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4:label">
+						<value>Invite for follow-up</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3:label">
+						<value>Age &lt;span style=&quot;color: red&quot;&gt;(Always fill in years, NOT months!)&lt;/span&gt;</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/3:label">
+						<value>piped into neighbour</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/2:label">
+						<value>Khat</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/lst/s1_c4_q2/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2/1:label">
+						<value>male</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/4:label">
+						<value>public tap/standpipe</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire1/s1_c5_z/s1_c5:label">
+						<value>Thank you very much for your participation.</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1:label">
+						<value>Name or initials</value>
+					</text>
+					<!-- MANUAL EDIT -->
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1_nameage:label">
+						<value>Nameage</value>
+					</text>
+					<!-- END MANUAL -->
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x3:label">
+						<value>Age</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_phonenumber:label">
+						<value>Household phonenumber</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_returntime:label">
+						<value>Please ask when will be the BEST time to return on this day for this person.</value>
+					</text>
+					<text id="/questionnaire1/s1_geo:label">
+						<value>Select current location</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2/1:label">
+						<value>male</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4:label">
+						<value>Household members who have left to live somewhere else</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x3:hint">
+						<value>In years</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q2:label">
+						<value>Household present</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q2/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/s1_c5_z/s1_c5_q1:label">
+						<value>Comment or remark</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/13:label">
+						<value>surface water (e.g. river</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/10:label">
+						<value>rainwater collection</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5:label">
+						<value>Joined the household in the last three years?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q2:label">
+						<value>Including yourself, how many individuals are currently living in this household?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q1:label">
+						<value>How many separate rooms do you have?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2/2:label">
+						<value>female</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/2:label">
+						<value>&lt;15mins</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5:label">
+						<value>Household members who have died</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/2:label">
+						<value>1-2 years ago</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x3:hint">
+						<value>In years</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/2:label">
+						<value>cook outside</value>
+					</text>
+				</translation>
+				<translation lang="Somali (so)">
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/8:label">
+						<value>Biyo dhulka ka soo baxaya oo daboolan</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_q3:label">
+						<value>Taariikhda si  wadista  waraysiga </value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/lst/s1_c4_q2/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q1:label">
+						<value>Numberka agalka</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/5:label">
+						<value>Ceel biyood</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/1:label">
+						<value>Xaabo</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4:label">
+						<value>Wakhtiga ay kugu qaadato goobta biyaha laga helo ilaa Gurigaga?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5:hint">
+						<value>Mudadii lixdii bilood ee ugu danbaysay</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/5:label">
+						<value>Hal Saac ilaa Laba Saac (1saac ilaa 2 Saac)</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/6:label">
+						<value>2h-4h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/7:label">
+						<value>4h-8h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/8:label">
+						<value>8h-24h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/9:label">
+						<value>24h-48h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/10:label">
+						<value>>48h</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5:label">
+						<value>Ma jira qoyskiina qof  kusoo biiray ama dhashay lixdii bilood ee ugu danbeyey?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/1:label">
+						<value>Guriga dhexdiisa/ qayb guriga ka mid ah</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/4:label">
+						<value>Gaas dabiici ah/ Qaas laga diyaariyey qashinka</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/9:label">
+						<value>Biyo dhulka ka soo baxaya oo aan daboolnayn</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6:label">
+						<value>Ma ka jawaabay</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q4/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/97:label">
+						<value>Warkama hayo</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/3:label">
+						<value>Buuri sanka ah</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q4:label">
+						<value>Masuulka ka qayb galaha waraysiga</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1:label">
+						<value>Xilima ayey qoyskiinu Digaale degen?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5:label">
+						<value>Ma jira qoyskiina qof  kusoo biiray ama dhashay lixdii bilood ee ugu danbeyey?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4:hint">
+						<value>Mudadii lixdii bilood ee ugu danbaysay</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/8:label">
+						<value>Naafato</value>
+					</text>
+					<text id="/questionnaire1/s1_c5_z/s1_c5:hint">
+						<value>(Waydii ka qayb qataha waraysiga sida ugu haboon u xasuusan karo cid uu la kulmo maalinta berito ah.)</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2:label">
+						<value>Jinsi</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3:label">
+						<value>Xagee ayaa ay ka helaan biyaha qoyskagu?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/1:label">
+						<value>In ka yar sanad ka hor</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_returntext:label">
+						<value>Dib ayn kugu so laaban doonaa mudo intaas <output value=" /questionnaire1/consented/s1_c4/friday_twodays "/> cisho (<output value=" /questionnaire1/consented/s1_c4/suggest_return_formatted "/>) si aan halkaas uga si wadno waraysiga . Fadlan ma I xaqiijin kartaa in malintaas lagu heli karo?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/3:label">
+						<value>Sam gaas/ gaasta wax lagu karsado</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2/2:label">
+						<value>Dhedig</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/11:label">
+						<value>Biooyad</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2:label">
+						<value>Jinsi</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/4:label">
+						<value>30 daqiiqo Ilaa 1saac</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_q3:hint">
+						<value>Aqbalaad taariikhda, ujeedada aan waraysiga usii wadno malinta <output value=" /questionnaire1/consented/s1_c4/friday_twodays "/> </value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x1:label">
+						<value>Magacow ama tilmaan</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/1:label">
+						<value>Qasabad ku xidhan guriga</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4_n:label">
+						<value>Ma ii qori kartaa Hadii uu jiro qof qoyska ka mid ahaa oo hada ka tegay kuna nool meel kale  mudadii lixdii bilood ee ugu danbaysay?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2/2:label">
+						<value>Dhedig</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q3:label">
+						<value>Qoyska/ Magaca masuulka qoyska</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/6:label">
+						<value>Toosh/ Pitijoor</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2:label">
+						<value>Jinsi</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5:label">
+						<value>Ma kugu darooraa gurigaagu?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4_n:hint">
+						<value>Ku dar kooxda cusub qofka kasta oo ka mid ah</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/1:label">
+						<value>Sigaar</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6:label">
+						<value>Majiraa qof hada qoyska la nool oo isticmaala Sigaarka, Qaadka/ Jaadka ama tubaakada?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6/97:label">
+						<value>Warkama hayo</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x1:label">
+						<value>Magacow ama tilmaan</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/3:label">
+						<value>Labo ilaa Sadex sano ka Hor (2 Sano ila 3 Sano ka hor)</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/3:label">
+						<value>15 ila 30 daqiiqo</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/97:label">
+						<value>Warkama hayo</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q4/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3:label">
+						<value>Tirada qoysku ka koban yahay</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2/1:label">
+						<value>Lab</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5_n:label">
+						<value>Ma ii qori karta hadii uu jiro qof qoyska ka mid ahaa oo geeriyooday lixdii bilood ee ugu danbsaysay?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3:hint">
+						<value>Sanado</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5/97:label">
+						<value>Warkama hayo</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/2:label">
+						<value>Qasabad ka dhextaal xafadaha</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/12:label">
+						<value>Booyad yar ama gaadhi biyo lagu soo qaato si ku meelgaadh ah</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x6:label">
+						<value>Goobta Dhimashada</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/6:label">
+						<value>Ceel daboolan/ Ceel biyood dusha ka dedan</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/9:label">
+						<value>Koronto</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/2:label">
+						<value>Dhuxul</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/97:label">
+						<value>Warkama hayo</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/97:label">
+						<value>Warkama hayo</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/4:label">
+						<value>Mid naba</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6:hint">
+						<value>Waa kan qofka aad hadda lahadasho?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/7:label">
+						<value>Laydhka qoraxda laga dhaliyo</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/4:label">
+						<value>In ka badan sadex sano (In ka badan 3 Sano)</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q2:label">
+						<value>Imisa qol oo gurigaga ka mid ayaa u samaysan in la seexdo?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/14:label">
+						<value>Biyo caagadeed oo warshadaysan</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/7:label">
+						<value>Ceel biyood dusha ka furan oon wax daboola lahayn</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5_n:hint">
+						<value>Ku dar kooxda cusub qofka kasta oo ka mid ah</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q2/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7/5:label">
+						<value>Fooniis</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q6:label">
+						<value>Gurigu ma leeyahay dal-dalool ay dabayshu ka soo gasho?</value>
+					</text>
+					<!-- MANUAL EDIT -->
+					<text id="/questionnaire1/consented/s1_c4/lst/s1_c4_q1:label">
+						<value> </value>
+					</text>
+					<!-- END MANUAL -->
+					<text id="/questionnaire1/consented/s1_c4/lst/s1_c4_q2:label">
+						<value>Fadlan hal qof ma dooran karnaa si uu nagala qayb galo waraysiga iyo qaadista dheecanka san qaroorka</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8:label">
+						<value>Ma leedahay meel aad cuntada ku karsato hadii ay jawaabtu tahay HAA kijadu  (Madbakh) ma leeyahay daaqad ama meel hawadu ka soo gasho?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x7:label">
+						<value>Maxa sababay dhimashada/Maxa dilay</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q7:label">
+						<value>Maxaad u adeegsataa cunta karinta, iftiinka iyo diirimaadka ee gurigaga dhexdiisa?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x3:label">
+						<value>Dada (y) &lt;span style=&quot;color: red&quot;&gt;(Always fill in years, NOT months!)&lt;/span&gt;</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4:label">
+						<value>Invite for follow-up</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3:label">
+						<value>Dada (y) &lt;span style=&quot;color: red&quot;&gt;(Always fill in years, NOT months!)&lt;/span&gt;</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/3:label">
+						<value>Qasabad jaarka ku taal</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3_q6/2:label">
+						<value>Jaad/Qaad /Barje</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/lst/s1_c4_q2/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2/1:label">
+						<value>Lab</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/4:label">
+						<value>Qasabad dawladeed nama la wadaago</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/97:label">
+						<value>Warkama hayo</value>
+					</text>
+					<text id="/questionnaire1/s1_c5_z/s1_c5:label">
+						<value>Ugu danbayn waan dhameeyey su,aalihii, Waad ku mahadsan tahay in aadigala qayb qaadato, waan soo dhawaynayaa Hadii aad rayi soo jeedinaysid, Mahadsanid</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q5/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1:label">
+						<value>Magacow ama tilmaan</value>
+					</text>
+					<!-- MANUAL EDIT -->
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1_nameage:label">
+						<value>Nameage</value>
+					</text>
+					<!-- END MANUAL -->
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x3:label">
+						<value>Dada (y) &lt;span style=&quot;color: red&quot;&gt;(Always fill in years, NOT months!)&lt;/span&gt;</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_phonenumber:label">
+						<value>Lambarka masuulka qoyska</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c4/s1_c4_return/s1_returntime:label">
+						<value>Please ask when will be the BEST time to return on this day for this person.</value>
+					</text>
+					<text id="/questionnaire1/s1_geo:label">
+						<value>Dooro goobta aad  hada joogtid</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2/1:label">
+						<value>Lab</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4:label">
+						<value>Lixdii bilood ee ugu danbaysay Ma jira qof qoyskiina ka tirasanaa oo cid kale u guuray</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x3:hint">
+						<value>Sanado</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q2:label">
+						<value>Masuulka Jooga</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire1/s1_c1/s1_c1_q2/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/s1_c5_z/s1_c5_q1:label">
+						<value>Comment or remark</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/13:label">
+						<value>Biyo dhulka dushiisa ah/Wabi/balay/ Haro/ dhijaan/Doox</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q3/10:label">
+						<value>Biyo roobaad</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5:label">
+						<value>Ma jira qoyskiina qof  kusoo biiray ama dhashay lixdii bilood ee ugu danbeyey?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q2:label">
+						<value>Ma ii qori kartaa xubnaha qoyskaga ee halkan si joogto ah ugu nool oo aad adiguna ku jirto</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q1:label">
+						<value>Imisa qol ayaa gurigan u samaysan yahay?</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2/2:label">
+						<value>Dhedig</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q4/2:label">
+						<value>Wax ka yar 15 daqiiqo</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5:label">
+						<value>Qoyska cid ka tirsanyd oo dhintay </value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q1/2:label">
+						<value>Hal ama Laba sano ka hor (1sano ilaa 2 sano ka hor)</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x3:hint">
+						<value>Sanado</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire1/consented/s1_c2/s1_c2_q8/2:label">
+						<value>Dibada</value>
+					</text>
+				</translation>
+			</itext>
+			<instance>
+				<questionnaire1 id="espicc_digaale_s11" version="651">
+					<start/>
+					<today/>
+					<deviceid/>
+					<subscriberid/>
+					<simserial/>
+					<phonenumber/>
+					<username/>
+					<email/>
+					<s1_c1>
+						<s1_c1_q1/>
+						<s1_c1_q2/>
+						<s1_c1_q3/>
+						<s1_c1_q4/>
+					</s1_c1>
+					<consented>
+						<s1_c2>
+							<s1_c2_q1/>
+							<s1_c2_q2/>
+							<s1_c2_q3/>
+							<s1_c2_q3_other/>
+							<s1_c2_q4/>
+							<s1_c2_q5/>
+							<s1_c2_q6/>
+							<s1_c2_q7/>
+							<s1_c2_q8/>
+						</s1_c2>
+						<s1_c3>
+							<s1_c3_q1/>
+							<s1_c3_q2/>
+							<s1_c3_q3_count/>
+							<s1_c3_q3 jr:template="">
+								<s1_c3_q3_counter/>
+								<s1_c3_q3_z>
+									<s1_c3_q3_x1/>
+									<s1_c3_q3_x2/>
+									<s1_c3_q3_x3/>
+									<s1_c3_q3_randomnumber/>
+									<person_checkprob/>
+									<s1_c3_q3_x5/>
+									<s1_c3_q3_x6/>
+									<person_invitecontact/>
+									<s1_c3_q3_x1_nameage/>
+								</s1_c3_q3_z>
+							</s1_c3_q3>
+							<s1_c3_q3_process jr:template="">
+								<mcalc/>
+								<personinvitetext/>
+							</s1_c3_q3_process>							
+							<s1_c3_q3_random/>
+							<s1_c3_q4_n/>
+							<s1_c3_q4 jr:template="">
+								<s1_c3_q4_z>
+									<s1_c3_q4_x1/>
+									<s1_c3_q4_x2/>
+									<s1_c3_q4_x3/>
+									<s1_c3_q4_x5/>
+								</s1_c3_q4_z>
+							</s1_c3_q4>
+							<s1_c3_q5_n/>
+							<s1_c3_q5 jr:template="">
+								<s1_c3_q5_z>
+									<s1_c3_q5_x1/>
+									<s1_c3_q5_x2/>
+									<s1_c3_q5_x3/>
+									<s1_c3_q5_x5/>
+									<s1_c3_q5_x6/>
+									<s1_c3_q5_x7/>
+								</s1_c3_q5_z>
+							</s1_c3_q5>
+						</s1_c3>
+						<s1_c3_q6/>
+						<s1_c3_q6_other/>
+						<!-- MANUAL EDIT -->
+						<countselected/>
+						<randomselected/>
+						<!-- DEBUG -->
+						<!--<overviewall/>
+						<numberselectednote/>
+						<countselectednote/>-->
+						<!-- END DEBUG -->
+						<!-- END MANUAL -->
+						<s1_c4>
+							<!-- MANUAL EDIT -->
+							<lst>
+								<s1_c4_q1/>
+								<!-- END MANUAL -->
+								<s1_c4_q2/>
+							</lst>
+							<friday_twodays/>
+							<suggest_return/>
+							<suggest_return_formatted/>
+							<s1_c4_return>
+								<s1_c4_returntext/>
+								<s1_c4_q3/>
+								<s1_phonenumber/>
+								<s1_returntime/>
+							</s1_c4_return>
+						</s1_c4>
+					</consented>
+					<s1_c5_z>
+						<s1_c5/>
+						<s1_c5_q1/>
+					</s1_c5_z>
+					<s1_geo/>
+					<end/>
+					<meta>
+						<instanceID/>
+					</meta>
+				</questionnaire1>
+			</instance>
+			<!-- MANUAL EDIT -->
+			<instance id="agegroup">
+				<root>
+					<item>
+						<group_id>1</group_id>
+						<group_low>0</group_low>
+						<group_high>0</group_high>
+						<group_prob>1</group_prob>
+					</item>
+					<item>
+						<group_id>2</group_id>
+						<group_low>1</group_low>
+						<group_high>1</group_high>
+						<group_prob>1</group_prob>
+					</item>
+					<item>
+						<group_id>3</group_id>
+						<group_low>2</group_low>
+						<group_high>5</group_high>
+						<group_prob>1</group_prob>
+					</item>
+					<item>
+						<group_id>4</group_id>
+						<group_low>6</group_low>
+						<group_high>14</group_high>
+						<group_prob>0.0702</group_prob>
+					</item>
+					<item>
+						<group_id>5</group_id>
+						<group_low>15</group_low>
+						<group_high>29</group_high>
+						<group_prob>0.0637</group_prob>
+					</item>
+					<item>
+						<group_id>6</group_id>
+						<group_low>30</group_low>
+						<group_high>49</group_high>
+						<group_prob>0.0999</group_prob>
+					</item>
+					<item>
+						<group_id>7</group_id>
+						<group_low>50</group_low>
+						<group_high>120</group_high>
+						<group_prob>0.0539</group_prob>
+					</item>
+				</root>
+			</instance>
+			<!-- END MANUAL -->
+			<bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/questionnaire1/start" type="dateTime"/>
+			<bind jr:preload="date" jr:preloadParams="today" nodeset="/questionnaire1/today" type="date"/>
+			<bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/questionnaire1/deviceid" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/questionnaire1/subscriberid" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="simserial" nodeset="/questionnaire1/simserial" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/questionnaire1/phonenumber" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="username" nodeset="/questionnaire1/username" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="email" nodeset="/questionnaire1/email" type="string"/>
+			<!--<bind constraint=". &gt;= (/questionnaire1/username * 1000 + 101) and . &lt;= (/questionnaire1/username * 1000 + 999)" nodeset="/questionnaire1/s1_c1/s1_c1_q1" required="true()" type="int"/>-->
+			<bind nodeset="/questionnaire1/s1_c1/s1_c1_q1" required="true()" type="int"/>
+			<bind nodeset="/questionnaire1/s1_c1/s1_c1_q2" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/s1_c1/s1_c1_q3" required="false()" type="string"/>
+			<bind nodeset="/questionnaire1/s1_geo" type="geopoint"/>
+			<bind nodeset="/questionnaire1/s1_c1/s1_c1_q4" relevant=" /questionnaire1/s1_c1/s1_c1_q2  = 1" required="true()" type="select1"/>
+			
+			<bind nodeset="/questionnaire1/consented" relevant=" /questionnaire1/s1_c1/s1_c1_q4  = 1"/>
+			<bind constraint=". &gt; 0" nodeset="/questionnaire1/consented/s1_c2/s1_c2_q1" required="true()" type="int"/>
+			<bind constraint=". &gt; 0 and . &lt;=  /questionnaire1/consented/s1_c2/s1_c2_q1 " nodeset="/questionnaire1/consented/s1_c2/s1_c2_q2" relevant=" /questionnaire1/consented/s1_c2/s1_c2_q1 > 1 " required="true()" type="int"/>
+			<bind nodeset="/questionnaire1/consented/s1_c2/s1_c2_q3" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c2/s1_c2_q3_other" relevant="selected(../s1_c2_q3, 'other')" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c2/s1_c2_q4" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c2/s1_c2_q5" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c2/s1_c2_q6" required="true()" type="select1"/>
+			<bind constraint="(selected( /questionnaire1/consented/s1_c2/s1_c2_q7 , '97') and count-selected(.) = 1) or (selected( /questionnaire1/consented/s1_c2/s1_c2_q7 , '98') and count-selected(.) = 1) or ( not(selected( /questionnaire1/consented/s1_c2/s1_c2_q7 , '97')) and not(selected( /questionnaire1/consented/s1_c2/s1_c2_q7 , '98')) )" nodeset="/questionnaire1/consented/s1_c2/s1_c2_q7" required="true()" type="select"/>
+			<bind nodeset="/questionnaire1/consented/s1_c2/s1_c2_q8" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q1" required="true()" type="select1"/>
+			<bind constraint=". &gt; 0" nodeset="/questionnaire1/consented/s1_c3/s1_c3_q2" required="true()" type="int"/>
+			
+			<bind calculate=" position(..) " nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter" readonly="true()" type="string"/>
+			
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3" required="true()"/>
+			<bind calculate=" /questionnaire1/consented/s1_c3/s1_c3_q2 " nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3_count" readonly="true()" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1" required="true()" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3" required="true()" type="int"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_randomnumber" calculate="once( random() )" type="string"/>
+			<!-- MANUAL EDIT; calculate for participant selection -->
+			<bind calculate="
+				(number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=1]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=1]/group_high
+				) * instance('agegroup')/root/item[group_id=1]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=2]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=2]/group_high
+				) * instance('agegroup')/root/item[group_id=2]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=3]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=3]/group_high
+				) * instance('agegroup')/root/item[group_id=3]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=4]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=4]/group_high
+				) * instance('agegroup')/root/item[group_id=4]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=5]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=5]/group_high
+				) * instance('agegroup')/root/item[group_id=5]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=6]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=6]/group_high
+				) * instance('agegroup')/root/item[group_id=6]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=7]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=7]/group_high
+				) * instance('agegroup')/root/item[group_id=7]/group_prob)
+			" nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/person_checkprob" type="string"/>
+			<bind calculate="
+				(number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=1]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=1]/group_high
+				) * instance('agegroup')/root/item[group_id=1]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=2]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=2]/group_high
+				) * instance('agegroup')/root/item[group_id=2]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=3]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=3]/group_high
+				) * instance('agegroup')/root/item[group_id=3]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=4]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=4]/group_high
+				) * instance('agegroup')/root/item[group_id=4]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=5]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=5]/group_high
+				) * instance('agegroup')/root/item[group_id=5]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=6]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=6]/group_high
+				) * instance('agegroup')/root/item[group_id=6]/group_prob +
+				number(
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &gt;= instance('agegroup')/root/item[group_id=7]/group_low and
+					/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3 &lt;= instance('agegroup')/root/item[group_id=7]/group_high
+				) * instance('agegroup')/root/item[group_id=7]/group_prob) &gt;= /questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_randomnumber
+			" nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/person_invitecontact" type="string"/>
+			
+			<!-- DEBUG -->
+			<!--<bind calculate="concat(/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1, ' - ', /questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3, 'y', ' - invite ', /questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/person_invitecontact, ' - random ', /questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_randomnumber, ' - myprob ', /questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/person_checkprob, ' - counter ', /questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter)" nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1_nameage" type="string"/>-->
+			<bind calculate="concat(/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1, ' - ', /questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3, 'y')" nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1_nameage" type="string"/>
+			<!-- END DEBUG -->
+			<!-- END MANUAL -->
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6" required="true()" type="select1" />
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3_process/personinvitetext" type="string" calculate="indexed-repeat(/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1_nameage, /questionnaire1/consented/s1_c3/s1_c3_q3, position(..))" />
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3_process/mcalc" type="string"
+			calculate="
+				(if(
+					position(..)=1,						sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 1]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=2,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 2]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=3,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 3]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=4,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 4]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=5,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 5]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=6,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 6]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=7,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 7]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=8,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 8]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=9,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 9]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=10,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 10]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=11,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 11]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=12,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 12]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=13,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 13]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=14,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 14]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=15,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 15]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=16,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 16]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=17,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 17]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=18,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 18]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=19,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 19]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=20,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 20]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=21,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 21]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=22,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 22]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=23,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 23]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=24,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 24]/s1_c3_q3_z/person_checkprob),
+				if(
+					position(..)=25,	sum(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_counter &lt;= 25]/s1_c3_q3_z/person_checkprob),
+					0
+				))))))))))))))))))))))))) div sum(/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/person_checkprob))" />
+			
+			<bind calculate="once( random() )" nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3_random" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q4_n" readonly="true()" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x1" required="true()" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x3" required="true()" type="int"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q5_n" readonly="true()" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x1" required="true()" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x3" required="true()" type="int"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x6" required="false()" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x7" required="false()" type="string"/>
+			
+			<bind constraint="(selected( /questionnaire1/consented/s1_c3_q6 , '4') and count-selected(.) = 1) or (selected( /questionnaire1/consented/s1_c3_q6 , '97') and count-selected(.) = 1) or (selected( /questionnaire1/consented/s1_c3_q6 , '98') and count-selected(.) = 1) or ( not(selected( /questionnaire1/consented/s1_c3_q6 , '4')) and not(selected( /questionnaire1/consented/s1_c3_q6 , '97')) and not(selected( /questionnaire1/consented/s1_c3_q6 , '98')) )" nodeset="/questionnaire1/consented/s1_c3_q6" required="true()" type="select"/>
+			
+			<bind nodeset="/questionnaire1/consented/s1_c3_q6_other" relevant="selected(../s1_c3_q6, 'other')" type="string"/>
+			<!-- MANUAL EDIT; calculate for participant selection -->
+			<bind calculate="count(/questionnaire1/consented/s1_c3/s1_c3_q3[/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/person_invitecontact=1])" nodeset="/questionnaire1/consented/countselected" type="string"/>
+			<!-- ceiling doesnt work in XLS path so use round adding 0.5 to always be within 1 -->
+			<!-- use once to keep the same value -->
+			<bind calculate=" once( round(/questionnaire1/consented/countselected * random() + 0.5) ) " nodeset="/questionnaire1/consented/randomselected" type="string" />
+			
+			<!-- DEBUG -->
+			<!--<bind nodeset="/questionnaire1/consented/overviewall" type="select1" />-->
+			<!--<bind nodeset="/questionnaire1/consented/numberselectednote" readonly="true()" type="string"/>-->
+			<!--<bind nodeset="/questionnaire1/consented/countselectednote" relevant="not(/questionnaire1/consented/countselected = 0)" readonly="true()" type="string"/>-->
+			<!-- END DEBUG -->
+			
+			<bind nodeset="/questionnaire1/s1_c4" relevant=" /questionnaire1/consented/countselected > 0 "/>
+			<bind nodeset="/questionnaire1/consented/s1_c4/lst/s1_c4_q1" type="select" required="true()"/>
+			<!-- END MANUAL -->
+			<!-- MANUAL ADAPTIONS -->
+			<bind nodeset="/questionnaire1/consented/s1_c4/lst/s1_c4_q2" required="true()" type="select1"/>
+			<bind calculate="if(format-date(today()+2, &quot;%a&quot;) = &quot;Fri&quot;, 3, 2)" nodeset="/questionnaire1/consented/s1_c4/friday_twodays" type="string"/>
+			<bind calculate="today() +  /questionnaire1/consented/s1_c4/friday_twodays " nodeset="/questionnaire1/consented/s1_c4/suggest_return" type="string"/>
+			<bind calculate="format-date( /questionnaire1/consented/s1_c4/suggest_return , &quot;%d/%m/%y&quot;)" nodeset="/questionnaire1/consented/s1_c4/suggest_return_formatted" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c4/s1_c4_return" relevant=" /questionnaire1/consented/s1_c4/lst/s1_c4_q2  = 1 "/>
+			<bind nodeset="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_returntext" relevant=" /questionnaire1/consented/s1_c4/lst/s1_c4_q2  = 1 " readonly="true()" type="string"/>
+			<bind calculate="once( format-date( /questionnaire1/consented/s1_c4/suggest_return , &quot;%Y-%m-%d&quot;) )" constraint=". &gt;= today() + /questionnaire1/consented/s1_c4/friday_twodays  and . &lt;= date(&quot;2019-10-30&quot;)" nodeset="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_q3" relevant="/questionnaire1/consented/s1_c4/lst/s1_c4_q2  = 1" required="true()" type="date"/>
+			<bind nodeset="/questionnaire1/consented/s1_c4/s1_c4_return/s1_phonenumber" relevant=" /questionnaire1/consented/s1_c4/lst/s1_c4_q2  = 1" required="false()" type="string"/>
+			<bind nodeset="/questionnaire1/consented/s1_c4/s1_c4_return/s1_returntime" relevant=" /questionnaire1/consented/s1_c4/lst/s1_c4_q2  = 1" required="true()" type="string"/>
+			<!-- END MANUAL ADAPTIONS -->
+			<bind nodeset="/questionnaire1/s1_c5_z/s1_c5" readonly="true()" type="string"/>
+			<bind nodeset="/questionnaire1/s1_c5_z/s1_c5_q1" required="false()" type="string"/>
+			<bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/questionnaire1/end" type="dateTime"/>
+			<bind jr:preload="uid" nodeset="/questionnaire1/meta/instanceID" readonly="true()" type="string"/>
+		</model>
+	</h:head>
+	<h:body>
+		<group ref="/questionnaire1/s1_c1">
+			<input ref="/questionnaire1/s1_c1/s1_c1_q1">
+				<label ref="jr:itext('/questionnaire1/s1_c1/s1_c1_q1:label')"/>
+			</input>
+			<select1 ref="/questionnaire1/s1_c1/s1_c1_q2">
+				<label ref="jr:itext('/questionnaire1/s1_c1/s1_c1_q2:label')"/>
+				<item>
+					<label ref="jr:itext('/questionnaire1/s1_c1/s1_c1_q2/1:label')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/questionnaire1/s1_c1/s1_c1_q2/0:label')"/>
+					<value>0</value>
+				</item>
+			</select1>
+			<input ref="/questionnaire1/s1_c1/s1_c1_q3">
+				<label ref="jr:itext('/questionnaire1/s1_c1/s1_c1_q3:label')"/>
+			</input>
+			<select1 ref="/questionnaire1/s1_c1/s1_c1_q4">
+				<label ref="jr:itext('/questionnaire1/s1_c1/s1_c1_q4:label')"/>
+				<item>
+					<label ref="jr:itext('/questionnaire1/s1_c1/s1_c1_q4/1:label')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/questionnaire1/s1_c1/s1_c1_q4/0:label')"/>
+					<value>0</value>
+				</item>
+			</select1>
+		</group>
+		<group ref="/questionnaire1/consented">
+			<group ref="/questionnaire1/consented/s1_c2">
+				<input ref="/questionnaire1/consented/s1_c2/s1_c2_q1">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q1:label')"/>
+				</input>
+				<input ref="/questionnaire1/consented/s1_c2/s1_c2_q2">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q2:label')"/>
+				</input>
+				<select1 ref="/questionnaire1/consented/s1_c2/s1_c2_q3">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/3:label')"/>
+						<value>3</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/4:label')"/>
+						<value>4</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/5:label')"/>
+						<value>5</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/6:label')"/>
+						<value>6</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/7:label')"/>
+						<value>7</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/8:label')"/>
+						<value>8</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/9:label')"/>
+						<value>9</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/10:label')"/>
+						<value>10</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/11:label')"/>
+						<value>11</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/12:label')"/>
+						<value>12</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/13:label')"/>
+						<value>13</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/14:label')"/>
+						<value>14</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/97:label')"/>
+						<value>97</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q3/98:label')"/>
+						<value>98</value>
+					</item>
+					<item>
+						<label>Other</label>
+						<value>other</value>
+					</item>
+				</select1>
+				<input ref="/questionnaire1/consented/s1_c2/s1_c2_q3_other">
+					<label>Specify other.</label>
+				</input>
+				<select1 ref="/questionnaire1/consented/s1_c2/s1_c2_q4">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/3:label')"/>
+						<value>3</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/4:label')"/>
+						<value>4</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/5:label')"/>
+						<value>5</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/6:label')"/>
+						<value>6</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/7:label')"/>
+						<value>7</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/8:label')"/>
+						<value>8</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/9:label')"/>
+						<value>9</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q4/10:label')"/>
+						<value>10</value>
+					</item>
+				</select1>
+				<select1 ref="/questionnaire1/consented/s1_c2/s1_c2_q5">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q5:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q5/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q5/0:label')"/>
+						<value>0</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q5/97:label')"/>
+						<value>97</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q5/98:label')"/>
+						<value>98</value>
+					</item>
+				</select1>
+				<select1 ref="/questionnaire1/consented/s1_c2/s1_c2_q6">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q6:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q6/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q6/0:label')"/>
+						<value>0</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q6/97:label')"/>
+						<value>97</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q6/98:label')"/>
+						<value>98</value>
+					</item>
+				</select1>
+				<select ref="/questionnaire1/consented/s1_c2/s1_c2_q7">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/3:label')"/>
+						<value>3</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/4:label')"/>
+						<value>4</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/5:label')"/>
+						<value>5</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/6:label')"/>
+						<value>6</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/7:label')"/>
+						<value>7</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/8:label')"/>
+						<value>8</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/9:label')"/>
+						<value>9</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/97:label')"/>
+						<value>97</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q7/98:label')"/>
+						<value>98</value>
+					</item>
+				</select>
+				<select1 ref="/questionnaire1/consented/s1_c2/s1_c2_q8">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q8:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q8/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q8/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q8/0:label')"/>
+						<value>0</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q8/97:label')"/>
+						<value>97</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c2/s1_c2_q8/98:label')"/>
+						<value>98</value>
+					</item>
+				</select1>
+			</group>
+			<group ref="/questionnaire1/consented/s1_c3">
+				<select1 ref="/questionnaire1/consented/s1_c3/s1_c3_q1">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q1:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q1/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q1/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q1/3:label')"/>
+						<value>3</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q1/4:label')"/>
+						<value>4</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q1/97:label')"/>
+						<value>97</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q1/98:label')"/>
+						<value>98</value>
+					</item>
+				</select1>
+				<input ref="/questionnaire1/consented/s1_c3/s1_c3_q2">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q2:label')"/>
+				</input>
+				<group ref="/questionnaire1/consented/s1_c3/s1_c3_q3">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3:label')"/>
+					<repeat jr:count=" /questionnaire1/consented/s1_c3/s1_c3_q3_count " nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3">
+						<group appearance="field-list" ref="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z">
+							<input ref="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x1:label')"/>
+							</input>
+							<select1 ref="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2:label')"/>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2/1:label')"/>
+									<value>1</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x2/2:label')"/>
+									<value>2</value>
+								</item>
+							</select1>
+							<input ref="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3:label')"/>
+								<hint ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x3:hint')"/>
+							</input>
+							<select1 ref="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5:label')"/>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5/1:label')"/>
+									<value>1</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x5/0:label')"/>
+									<value>0</value>
+								</item>
+							</select1>
+							<select1 ref="/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6:label')"/>
+								<hint ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6:hint')"/>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6/1:label')"/>
+									<value>1</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q3/s1_c3_q3_z/s1_c3_q3_x6/0:label')"/>
+									<value>0</value>
+								</item>
+							</select1>
+						</group>
+					</repeat>
+				</group>
+				<group ref="/questionnaire1/consented/s1_c3/s1_c3_q3_process">
+					<label/>
+					<repeat jr:count="/questionnaire1/consented/s1_c3/s1_c3_q3_count " nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3_process"/>
+				</group>
+				<input ref="/questionnaire1/consented/s1_c3/s1_c3_q4_n">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4_n:label')"/>
+					<hint ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4_n:hint')"/>
+				</input>
+				<group ref="/questionnaire1/consented/s1_c3/s1_c3_q4">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4:label')"/>
+					<repeat nodeset="/questionnaire1/consented/s1_c3/s1_c3_q4">
+						<group appearance="field-list" ref="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z">
+							<input ref="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x1">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x1:label')"/>
+							</input>
+							<select1 ref="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2:label')"/>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2/1:label')"/>
+									<value>1</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x2/2:label')"/>
+									<value>2</value>
+								</item>
+							</select1>
+							<input ref="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x3">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x3:label')"/>
+								<hint ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x3:hint')"/>
+							</input>
+							<select1 ref="/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5:label')"/>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5/1:label')"/>
+									<value>1</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q4/s1_c3_q4_z/s1_c3_q4_x5/0:label')"/>
+									<value>0</value>
+								</item>
+							</select1>
+						</group>
+					</repeat>
+				</group>
+				<input ref="/questionnaire1/consented/s1_c3/s1_c3_q5_n">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5_n:label')"/>
+					<hint ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5_n:hint')"/>
+				</input>
+				<group ref="/questionnaire1/consented/s1_c3/s1_c3_q5">
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5:label')"/>
+					<repeat nodeset="/questionnaire1/consented/s1_c3/s1_c3_q5">
+						<group appearance="field-list" ref="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z">
+							<input ref="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x1">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x1:label')"/>
+							</input>
+							<select1 ref="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2:label')"/>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2/1:label')"/>
+									<value>1</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x2/2:label')"/>
+									<value>2</value>
+								</item>
+							</select1>
+							<input ref="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x3">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x3:label')"/>
+								<hint ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x3:hint')"/>
+							</input>
+							<select1 ref="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5:label')"/>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5/1:label')"/>
+									<value>1</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x5/0:label')"/>
+									<value>0</value>
+								</item>
+							</select1>
+							<input ref="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x6">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x6:label')"/>
+							</input>
+							<input ref="/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x7">
+								<label ref="jr:itext('/questionnaire1/consented/s1_c3/s1_c3_q5/s1_c3_q5_z/s1_c3_q5_x7:label')"/>
+							</input>
+						</group>
+					</repeat>
+				</group>
+			</group>
+			<select ref="/questionnaire1/consented/s1_c3_q6">
+				<label ref="jr:itext('/questionnaire1/consented/s1_c3_q6:label')"/>
+				<item>
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3_q6/1:label')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3_q6/2:label')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3_q6/3:label')"/>
+					<value>3</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3_q6/4:label')"/>
+					<value>4</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3_q6/97:label')"/>
+					<value>97</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/questionnaire1/consented/s1_c3_q6/98:label')"/>
+					<value>98</value>
+				</item>
+				<item>
+					<label>Other</label>
+					<value>other</value>
+				</item>
+			</select>
+			<input ref="/questionnaire1/consented/s1_c3_q6_other">
+				<label>Specify other.</label>
+			</input>
+			<!-- MANUAL EDIT -->
+			<!-- DEBUG -->
+			<!--<select1 ref="/questionnaire1/consented/overviewall">
+				<label>See all people entered:</label>
+				<itemset nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3">
+					<value ref="s1_c3_q3_z/s1_c3_q3_x1"/>
+					<label ref="s1_c3_q3_z/s1_c3_q3_x1_nameage"/>
+				</itemset>
+			</select1>	
+			<input ref="/questionnaire1/consented/numberselectednote">
+				<label>Count selected: <output value="/questionnaire1/consented/countselected"/></label>
+			</input>
+			<input ref="/questionnaire1/consented/countselectednote">
+				<label>Number selected: <output value="/questionnaire1/consented/randomselected"/></label>
+			</input>-->
+			<!-- END DEBUG -->
+			<!-- END MANUAL -->
+			<group ref="/questionnaire1/consented/s1_c4">
+				<!--<label ref="jr:itext('/questionnaire1/consented/s1_c4:label')"/>-->
+				<!-- MANUAL EDIT; Select for follow-up -->
+				<group appearance="field-list" ref="/questionnaire1/consented/s1_c4/lst">
+					<select ref="/questionnaire1/consented/s1_c4/lst/s1_c4_q1">
+						<label ref="jr:itext('/questionnaire1/consented/s1_c4/lst/s1_c4_q1:label')"/>
+						<itemset nodeset="/questionnaire1/consented/s1_c3/s1_c3_q3_process[/questionnaire1/consented/s1_c3/s1_c3_q3_process/mcalc &gt; /questionnaire1/consented/s1_c3/s1_c3_q3_random][position() &lt;= 2]">
+							<value ref="/questionnaire1/consented/s1_c3/s1_c3_q3_process/personinvitetext"/>
+							<label ref="/questionnaire1/consented/s1_c3/s1_c3_q3_process/personinvitetext"/>
+							<!--<label ref="s1_c3_q3_z/s1_c3_q3_x1"/>-->
+						</itemset>
+					</select>
+					<!-- END MANUAL -->
+					<select1 ref="/questionnaire1/consented/s1_c4/lst/s1_c4_q2">
+						<label ref="jr:itext('/questionnaire1/consented/s1_c4/lst/s1_c4_q2:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire1/consented/s1_c4/lst/s1_c4_q2/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire1/consented/s1_c4/lst/s1_c4_q2/0:label')"/>
+							<value>0</value>
+						</item>
+					</select1>
+				</group>
+				<group appearance="field-list" ref="/questionnaire1/consented/s1_c4/s1_c4_return">
+					<input ref="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_returntext">
+						<label ref="jr:itext('/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_returntext:label')"/>
+					</input>
+					<input ref="/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_q3">
+						<label ref="jr:itext('/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_q3:label')"/>
+						<hint ref="jr:itext('/questionnaire1/consented/s1_c4/s1_c4_return/s1_c4_q3:hint')"/>
+					</input>
+					<input appearance="numbers" ref="/questionnaire1/consented/s1_c4/s1_c4_return/s1_phonenumber">
+						<label ref="jr:itext('/questionnaire1/consented/s1_c4/s1_c4_return/s1_phonenumber:label')"/>
+					</input>
+					<input ref="/questionnaire1/consented/s1_c4/s1_c4_return/s1_returntime">
+						<label ref="jr:itext('/questionnaire1/consented/s1_c4/s1_c4_return/s1_returntime:label')"/>
+					</input>
+				</group>
+			</group>
+		</group>
+		<group appearance="field-list" ref="/questionnaire1/s1_c5_z">
+			<input ref="/questionnaire1/s1_c5_z/s1_c5">
+				<label ref="jr:itext('/questionnaire1/s1_c5_z/s1_c5:label')"/>
+				<hint ref="jr:itext('/questionnaire1/s1_c5_z/s1_c5:hint')"/>
+			</input>
+			<input ref="/questionnaire1/s1_c5_z/s1_c5_q1">
+				<label ref="jr:itext('/questionnaire1/s1_c5_z/s1_c5_q1:label')"/>
+			</input>
+		</group>
+		<input ref="/questionnaire1/s1_geo">
+			<label ref="jr:itext('/questionnaire1/s1_geo:label')"/>
+		</input>
+	</h:body>
+</h:html>

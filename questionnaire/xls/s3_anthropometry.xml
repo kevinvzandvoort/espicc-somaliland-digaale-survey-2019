@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<h:head>
+		<h:title>ESPICC S3 Nutritional survey</h:title>
+		<model>
+			<submission base64RsaPublicKey="REMOVED"/>
+			<itext>
+				<translation lang="English (en)">
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1:label">
+						<value>Any issue that may affect results?</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q3:hint">
+						<value>Read from document</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q2/3:label">
+						<value>MUAC tape</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q1:hint">
+						<value>Read from document</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q2:label">
+						<value>Participant ID</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q2/1:label">
+						<value>height</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q1:hint">
+						<value>To nearest millimetre</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q3:label">
+						<value>Age in months</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2:label">
+						<value>Oedema</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3/1:label">
+						<value>Only undergarments</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q2/2:label">
+						<value>length</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q1:label">
+						<value>Height/length</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q2/1:label">
+						<value>Weight scale</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q2:label">
+						<value>What equipment has issues?</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q4/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q1:label">
+						<value>MUAC in centimetres</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q2/2:label">
+						<value>Measuring board</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q2:label">
+						<value>Is height or length measured?</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q1:label">
+						<value>Household ID</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1/2:label">
+						<value>Technical issue with measurement equipment</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q4:label">
+						<value>Individual consent participate</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3/2:label">
+						<value>Skirt/trousers</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1/3:label">
+						<value>Child was (partially) clothed</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q1:hint">
+						<value>In centimetres</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1/4:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c2:label">
+						<value>Weight</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q2:jr:constraintMsg">
+						<value>Check the ID</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q2:hint">
+						<value>Read from document</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/1:label">
+						<value>Absent</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5:label">
+						<value>Meta information</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/4:label">
+						<value>Severe: generalized oedema including both feet, legs, arms, and face</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/2:label">
+						<value>Mild: both feet and ankles</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3/3:label">
+						<value>Shirt</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3:label">
+						<value>What clothes did the child wear?</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c2/s3_c2_q1:label">
+						<value>Weight</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q1:jr:constraintMsg">
+						<value>Check the ID</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/5:label">
+						<value>Not able to assess</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c2/s3_c2_q1:hint">
+						<value>In KG, round to nearest 100 gram</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/3:label">
+						<value>Moderate: both feet, plus lower legs, hands, or lower arms</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3/4:label">
+						<value>Shoes</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q4/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1/1:label">
+						<value>Child has missing limb</value>
+					</text>
+				</translation>
+				<translation lang="Somali (so)">
+					<text id="/questionnaire3/s3_c1/s3_c1_q3:hint">
+						<value>-</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q2/3:label">
+						<value>nooca MUAC ga</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q1:label">
+						<value>MUAC in CM</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q2:label">
+						<value>Aqoonsiga ka qaybgalaha</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q2/1:label">
+						<value>Dhererka</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q1:hint">
+						<value>Milimiterka ugu dhaw (MM)</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q3:label">
+						<value>Dada/ Cimriga oo bila ah</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2:label">
+						<value>Barar/ sida lugo barar</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3/1:label">
+						<value>Nigis /Matate</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q2/2:label">
+						<value>Balaca</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q1:label">
+						<value>Dhererka/Balaca</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q2/1:label">
+						<value>Miisaanka la isticmaalay</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q2:label">
+						<value>waa maxay qalabka la isticmaalay</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q4/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5:label">
+						<value>Meta information</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q2/2:label">
+						<value>Cabirka loo isticmaalay dhererka</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q2:label">
+						<value>Cabirka Balaca ama dhererka</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c2/s3_c2_q1:label">
+						<value>U qor culayska kilogramka ugu dhaw</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q1:label">
+						<value>Numberka agalka</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1/2:label">
+						<value>Cilad xaga farsamada ah ama qalabka wax lagu cabiro ah</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q4:label">
+						<value>Qofka Masuulka ah/bixiyey ogolaanshaha</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q1:hint">
+						<value>-</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3/2:label">
+						<value>Surwaal</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1/3:label">
+						<value>ilmahan waa la helay/la tuuray/ la soo helay</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c3/s3_c3_q1:hint">
+						<value>In centimetres (sentimiter)</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1/4:label">
+						<value>Midnaba</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c2:label">
+						<value>Weight</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1:label">
+						<value>Majiraan wax yaabo waxyeelan yakara?</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q2:hint">
+						<value>-</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/1:label">
+						<value>Maqan/ Aan joogin</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/2:label">
+						<value>Xogaa: Cagaha iyo lugaha ah</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3/3:label">
+						<value>shaati/shaadh</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3:label">
+						<value>Dhar noocee ah ayuu ilmuhu xidhan yahay</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/4:label">
+						<value>Aad u daran; Barar jidhkoo dhan ah u ku jiro cagaha, lugaha, gacmhaa babacada iyo wajiga</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q1:jr:constraintMsg">
+						<value>-</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/5:label">
+						<value>lama awoodo in la eego/baadho/</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c2/s3_c2_q1:hint">
+						<value>In Kiiloo giram (KG) 100 gram ka ugu dhaw</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c4/s3_c4_q2/3:label">
+						<value>.Dhexdhexaad: Labada lugood, cagaha hoose iyo gacanta xageeda hoose</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q3/4:label">
+						<value>Kabo</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q2:jr:constraintMsg">
+						<value>-</value>
+					</text>
+					<text id="/questionnaire3/s3_c1/s3_c1_q4/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire3/consented/s3_c5/s3_c5_q1/1:label">
+						<value>Ilmo curyaan ah/ Laangadhe ah/ Lug maqantahay</value>
+					</text>
+				</translation>
+			</itext>
+			<instance>
+				<questionnaire3 id="espicc_digaale_s3" version="305">
+					<start/>
+					<today/>
+					<deviceid/>
+					<subscriberid/>
+					<simserial/>
+					<phonenumber/>
+					<username/>
+					<email/>
+					<s3_c1>
+						<s3_c1_q1/>
+						<s3_c1_q2/>
+						<s3_c1_q3/>
+						<s3_c1_q4/>
+					</s3_c1>
+					<consented>
+						<s3_c2>
+							<s3_c2_q1/>
+						</s3_c2>
+						<s3_c3>
+							<s3_c3_q1/>
+							<s3_c3_q2/>
+						</s3_c3>
+						<s3_c4>
+							<s3_c4_q1/>
+							<s3_c4_q2/>
+						</s3_c4>
+						<s3_c5>
+							<s3_c5_q1/>
+							<s3_c5_q1_other/>
+							<s3_c5_q2/>
+							<s3_c5_q3/>
+							<s3_c5_q3_other/>
+						</s3_c5>
+					</consented>
+					<end/>
+					<meta>
+						<instanceID/>
+					</meta>
+				</questionnaire3>
+			</instance>
+			<bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/questionnaire3/start" type="dateTime"/>
+			<bind jr:preload="date" jr:preloadParams="today" nodeset="/questionnaire3/today" type="date"/>
+			<bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/questionnaire3/deviceid" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/questionnaire3/subscriberid" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="simserial" nodeset="/questionnaire3/simserial" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/questionnaire3/phonenumber" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="username" nodeset="/questionnaire3/username" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="email" nodeset="/questionnaire3/email" type="string"/>
+			<bind constraint=". &gt; 0" jr:constraintMsg="jr:itext('/questionnaire3/s3_c1/s3_c1_q1:jr:constraintMsg')" nodeset="/questionnaire3/s3_c1/s3_c1_q1" required="true()" type="int"/>
+			<bind constraint=". &gt; ( /questionnaire3/s3_c1/s3_c1_q1  * 100) and . &lt; ( /questionnaire3/s3_c1/s3_c1_q1  * 100 + 99)" jr:constraintMsg="jr:itext('/questionnaire3/s3_c1/s3_c1_q2:jr:constraintMsg')" nodeset="/questionnaire3/s3_c1/s3_c1_q2" required="true()" type="int"/>
+			<bind constraint=". &gt; 5 and . &lt; 60" nodeset="/questionnaire3/s3_c1/s3_c1_q3" type="int"/>
+			<bind nodeset="/questionnaire3/s3_c1/s3_c1_q4" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire3/consented" relevant=" /questionnaire3/s3_c1/s3_c1_q4  = 1"/>
+			<bind constraint=". &gt; 0 and . &lt; 100" nodeset="/questionnaire3/consented/s3_c2/s3_c2_q1" type="decimal"/>
+			<bind constraint=". &gt; 0 and . &lt; 180" nodeset="/questionnaire3/consented/s3_c3/s3_c3_q1" type="decimal"/>
+			<bind nodeset="/questionnaire3/consented/s3_c3/s3_c3_q2" type="select1"/>
+			<bind constraint=". &gt; 0 and . &lt; 30" nodeset="/questionnaire3/consented/s3_c4/s3_c4_q1" type="decimal"/>
+			<bind nodeset="/questionnaire3/consented/s3_c4/s3_c4_q2" type="select1"/>
+			<bind constraint="(selected( /questionnaire3/consented/s3_c5/s3_c5_q1 , '4') and count-selected(.) = 1) or (not(selected( /questionnaire3/consented/s3_c5/s3_c5_q1 , '4')))" nodeset="/questionnaire3/consented/s3_c5/s3_c5_q1" type="select"/>
+			<bind nodeset="/questionnaire3/consented/s3_c5/s3_c5_q1_other" relevant="selected(../s3_c5_q1, 'other')" type="string"/>
+			<bind nodeset="/questionnaire3/consented/s3_c5/s3_c5_q2" relevant="selected( /questionnaire3/consented/s3_c5/s3_c5_q1 , '2')" type="select"/>
+			<bind nodeset="/questionnaire3/consented/s3_c5/s3_c5_q3" relevant="selected( /questionnaire3/consented/s3_c5/s3_c5_q1 , '3')" type="select"/>
+			<bind nodeset="/questionnaire3/consented/s3_c5/s3_c5_q3_other" relevant="selected(../s3_c5_q3, 'other')" type="string"/>
+			<bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/questionnaire3/end" type="dateTime"/>
+			<bind jr:preload="uid" nodeset="/questionnaire3/meta/instanceID" readonly="true()" type="string"/>
+		</model>
+	</h:head>
+	<h:body>
+		<group ref="/questionnaire3/s3_c1">
+			<input ref="/questionnaire3/s3_c1/s3_c1_q1">
+				<label ref="jr:itext('/questionnaire3/s3_c1/s3_c1_q1:label')"/>
+				<hint ref="jr:itext('/questionnaire3/s3_c1/s3_c1_q1:hint')"/>
+			</input>
+			<input ref="/questionnaire3/s3_c1/s3_c1_q2">
+				<label ref="jr:itext('/questionnaire3/s3_c1/s3_c1_q2:label')"/>
+				<hint ref="jr:itext('/questionnaire3/s3_c1/s3_c1_q2:hint')"/>
+			</input>
+			<input ref="/questionnaire3/s3_c1/s3_c1_q3">
+				<label ref="jr:itext('/questionnaire3/s3_c1/s3_c1_q3:label')"/>
+				<hint ref="jr:itext('/questionnaire3/s3_c1/s3_c1_q3:hint')"/>
+			</input>
+			<select1 ref="/questionnaire3/s3_c1/s3_c1_q4">
+				<label ref="jr:itext('/questionnaire3/s3_c1/s3_c1_q4:label')"/>
+				<item>
+					<label ref="jr:itext('/questionnaire3/s3_c1/s3_c1_q4/1:label')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/questionnaire3/s3_c1/s3_c1_q4/0:label')"/>
+					<value>0</value>
+				</item>
+			</select1>
+		</group>
+		<group ref="/questionnaire3/consented">
+			<group ref="/questionnaire3/consented/s3_c2">
+				<label ref="jr:itext('/questionnaire3/consented/s3_c2:label')"/>
+				<input ref="/questionnaire3/consented/s3_c2/s3_c2_q1">
+					<label ref="jr:itext('/questionnaire3/consented/s3_c2/s3_c2_q1:label')"/>
+					<hint ref="jr:itext('/questionnaire3/consented/s3_c2/s3_c2_q1:hint')"/>
+				</input>
+			</group>
+			<group appearance="field-list" ref="/questionnaire3/consented/s3_c3">
+				<input ref="/questionnaire3/consented/s3_c3/s3_c3_q1">
+					<label ref="jr:itext('/questionnaire3/consented/s3_c3/s3_c3_q1:label')"/>
+					<hint ref="jr:itext('/questionnaire3/consented/s3_c3/s3_c3_q1:hint')"/>
+				</input>
+				<select1 ref="/questionnaire3/consented/s3_c3/s3_c3_q2">
+					<label ref="jr:itext('/questionnaire3/consented/s3_c3/s3_c3_q2:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c3/s3_c3_q2/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c3/s3_c3_q2/2:label')"/>
+						<value>2</value>
+					</item>
+				</select1>
+			</group>
+			<group appearance="field-list" ref="/questionnaire3/consented/s3_c4">
+				<input ref="/questionnaire3/consented/s3_c4/s3_c4_q1">
+					<label ref="jr:itext('/questionnaire3/consented/s3_c4/s3_c4_q1:label')"/>
+					<hint ref="jr:itext('/questionnaire3/consented/s3_c4/s3_c4_q1:hint')"/>
+				</input>
+				<select1 ref="/questionnaire3/consented/s3_c4/s3_c4_q2">
+					<label ref="jr:itext('/questionnaire3/consented/s3_c4/s3_c4_q2:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c4/s3_c4_q2/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c4/s3_c4_q2/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c4/s3_c4_q2/3:label')"/>
+						<value>3</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c4/s3_c4_q2/4:label')"/>
+						<value>4</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c4/s3_c4_q2/5:label')"/>
+						<value>5</value>
+					</item>
+				</select1>
+			</group>
+			<group ref="/questionnaire3/consented/s3_c5">
+				<label ref="jr:itext('/questionnaire3/consented/s3_c5:label')"/>
+				<select ref="/questionnaire3/consented/s3_c5/s3_c5_q1">
+					<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q1:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q1/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q1/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q1/3:label')"/>
+						<value>3</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q1/4:label')"/>
+						<value>4</value>
+					</item>
+					<item>
+						<label>Other</label>
+						<value>other</value>
+					</item>
+				</select>
+				<input ref="/questionnaire3/consented/s3_c5/s3_c5_q1_other">
+					<label>Specify other.</label>
+				</input>
+				<select ref="/questionnaire3/consented/s3_c5/s3_c5_q2">
+					<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q2:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q2/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q2/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q2/3:label')"/>
+						<value>3</value>
+					</item>
+				</select>
+				<select ref="/questionnaire3/consented/s3_c5/s3_c5_q3">
+					<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q3:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q3/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q3/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q3/3:label')"/>
+						<value>3</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire3/consented/s3_c5/s3_c5_q3/4:label')"/>
+						<value>4</value>
+					</item>
+					<item>
+						<label>Other</label>
+						<value>other</value>
+					</item>
+				</select>
+				<input ref="/questionnaire3/consented/s3_c5/s3_c5_q3_other">
+					<label>Specify other.</label>
+				</input>
+			</group>
+		</group>
+	</h:body>
+</h:html>

@@ -1,0 +1,3414 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<h:head>
+		<h:title>ESPICC S2 Social Contacts</h:title>
+		<model>
+			<submission base64RsaPublicKey="REMOVED"/>
+			<itext>
+				<translation lang="English (en)">
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/5:label">
+						<value>Mosque</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/5:label">
+						<value>Never</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/2:label">
+						<value>Sore throat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/generated_table_list_label_40:label">
+						<value>How often do you visit the following places?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5:label">
+						<value>In the last week, have you cooked one of these animals or handled their raw meat?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/11:label">
+						<value>Donkey</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/5:label">
+						<value>More than one day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3:label">
+						<value>A place 10-50km away</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/9:label">
+						<value>Fever with chills like malaria</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/6:label">
+						<value>Bat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4/3:label">
+						<value>Guess</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/3:label">
+						<value>Camel</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/1:label">
+						<value>Most days of the week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/4:label">
+						<value>Sneezing</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/7:label">
+						<value>Market salesman</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/2:label">
+						<value>Other relative</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/4:label">
+						<value>A whole day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/7:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/3:label">
+						<value>Work</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/11:label">
+						<value>Donkey</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/4:label">
+						<value>Less than once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/8:label">
+						<value>Cat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/3:label">
+						<value>1h-2h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/2:label">
+						<value>Cow, goat, sheep</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/3:label">
+						<value>At least once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/generated_table_list_label_46:label">
+						<value>When you go to this place, how much time do you spend there?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4:label">
+						<value>Do you use any of the following substances?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1:label">
+						<value>What is your age in years?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/5:label">
+						<value>Primate</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/9:label">
+						<value>Dog</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/5:label">
+						<value>Never</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/4:label">
+						<value>Less than once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1:label">
+						<value>Household ID</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/2:label">
+						<value>Cow, goat, sheep</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/6:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/5:label">
+						<value>Chronic Obstructive Pulmonary Disease (COPD)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/6:label">
+						<value>&gt;20</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3:label">
+						<value>A place 10-50km away</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/10:label">
+						<value>Snake</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/2:label">
+						<value>1-2</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/3:label">
+						<value>At least once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/1:label">
+						<value>&lt;1h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/8:label">
+						<value>Household</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/97:label">
+						<value>Don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/1:label">
+						<value>Cough</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/8:label">
+						<value>Cat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2:label">
+						<value>A place 5-10km away (1-2h walk)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/1:label">
+						<value>Most days of the week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4:label">
+						<value>Relationship to <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>
+						</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/2:label">
+						<value>1-2h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/6:label">
+						<value>Agriculture</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/5:label">
+						<value>11-20</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4:label">
+						<value>A place more than 50km away (i.e. Berbera/Burco/Other country)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/9:label">
+						<value>Unemployed</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/2:label">
+						<value>Cow, goat, sheep</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/5:label">
+						<value>More than one day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/7:label">
+						<value>Antelope</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b:label">
+						<value>When did you have pneumonia?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1:hint">
+						<value>-</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/6:label">
+						<value>Bat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/2:label">
+						<value>School/college/university student</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/4:label">
+						<value>A whole day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/1:label">
+						<value>Digaale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2:label">
+						<value>Do you touch any of the following animals (alive) at least once per week?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/5:label">
+						<value>Never</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/4:label">
+						<value>2h-4h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/4:label">
+						<value>HIV</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/10:label">
+						<value>Fever without chills</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6:label">
+						<value>How often do you have contact with <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/> in general?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/3:label">
+						<value>Camel</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/7:label">
+						<value>Market</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3/2:label">
+						<value>Nonphysical</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/3:label">
+						<value>At least once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2:label">
+						<value>Sociodemographic characteristics</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/6:label">
+						<value>Asthma</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/1:label">
+						<value>Household member</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/3:label">
+						<value>At least once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/1:label">
+						<value>Home</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/2:label">
+						<value>At least once per week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/4:label">
+						<value>Rodent</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4:label">
+						<value>Is consent given?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/2:label">
+						<value>Tobacco (snuff)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/3:label">
+						<value>Half a day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3:label">
+						<value>
+							<output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>
+						</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/5:label">
+						<value>Primate</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/2:label">
+						<value>At least once per week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/4:label">
+						<value>6-10</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/1:label">
+						<value>Most days of the week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/2:label">
+						<value>1-2h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/1:label">
+						<value>Chicken, duck, gees</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/4:label">
+						<value>A whole day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/2:label">
+						<value>Another house</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/5:label">
+						<value>Shisha</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/3:label">
+						<value>Camel</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/1:label">
+						<value>Daily or almost daily</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8/1:label">
+						<value>Digaale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4:label">
+						<value>How was age estimated?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2/2:label">
+						<value>female</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4:label">
+						<value>Travel</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/present/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1:hint">
+						<value>-</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3:label">
+						<value>Was exact age known?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3:label">
+						<value>What is the name of the village, town, or settlement of the furthest place you went to last week?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/1:label">
+						<value>&lt;1h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3/2:label">
+						<value>Parent (proxy)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/8:label">
+						<value>Shop</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/9:label">
+						<value>Water source</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/1:label">
+						<value>&lt;15min</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/3:label">
+						<value>Half a day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/11:label">
+						<value>Donkey</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/4:label">
+						<value>Less than once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/6:label">
+						<value>Bat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/4:label">
+						<value>Less than once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/8:label">
+						<value>Cat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/12:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/1:label">
+						<value>Chicken, duck, gees</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3:label">
+						<value>Have you ever been diagnosed with any of the following illnesses by a healthcare worker?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2:label">
+						<value>Participant ID</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/98:label">
+						<value>Refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/10:label">
+						<value>Snake</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9:label">
+						<value>Could you name the city/village where you contacted <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7:label">
+						<value>How much time did you spend with <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/> in total?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/10:label">
+						<value>Retired</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_z:label">
+						<value>We will now ask you to remember who you have been in contact with yesterday, between the time of waking up yesterday and the time of waking up today. A contact is someone who you met in person and with who you exchanged at least a few words.</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1:hint">
+						<value>Read from document</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/12:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/1:label">
+						<value>Chicken, duck, gees</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/5:label">
+						<value>More than one day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8:label">
+						<value>Did you meet <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/> in Digaale, in Hargeisa, or somewhere else?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2:label">
+						<value>Have you received any antibiotics in the past two weeks?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/3:label">
+						<value>Half a day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3:label">
+						<value>Answers given by</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/present/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/2:label">
+						<value>Cow, goat, sheep</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/5:label">
+						<value>Diarrhoea</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/3:label">
+						<value>3-5</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/5:label">
+						<value>Primate</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/5:label">
+						<value>Other</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/97:label">
+						<value>Don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/1:label">
+						<value>Chicken, duck, gees</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c7_geo:label">
+						<value>Select current location</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/98:label">
+						<value>Refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2/2:label">
+						<value>female</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2:hint">
+						<value>Read from document</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/4:label">
+						<value>A whole day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/1:label">
+						<value>Pneumonia</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1:label">
+						<value>Have you been feeling ill or had any of the following symptoms in the past two weeks?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2/1:label">
+						<value>male</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/2:label">
+						<value>At least once per week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/3:label">
+						<value>Half a day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/4:label">
+						<value>Rodent</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/7:label">
+						<value>Antelope</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1:label">
+						<value>Have you been within 2 meters of the following animals (alive) yesterday?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/7:label">
+						<value>Antelope</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/2:label">
+						<value>At least once per week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/5:label">
+						<value>Never</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1:jr:constraintMsg">
+						<value>Should be between 0 and 120 years</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/3:label">
+						<value>Khat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/7:label">
+						<value>Wheezing</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2:label">
+						<value>Sex of <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>
+						</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/10:label">
+						<value>Snake</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/11:label">
+						<value>Donkey</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1:jr:constraintMsg">
+						<value>Check the ID</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/10:label">
+						<value>Snake</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4/2:label">
+						<value>Proxy age other person</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/1:label">
+						<value>Chicken, duck, gees</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/5:label">
+						<value>More than one day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/5:label">
+						<value>More than one day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1:label">
+						<value>A place less than 5km away (i.e. Hargeisa)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8/2:label">
+						<value>Hargeisa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/3:label">
+						<value>At least once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/1:label">
+						<value>Tobacco (cigarettes or cigars)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/10:label">
+						<value>Snake</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/11:label">
+						<value>Donkey</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/present:label">
+						<value>Is household present?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/4:label">
+						<value>Shop worker</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/12:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/9:label">
+						<value>Dog</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2:label">
+						<value>What is your sex?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/98:label">
+						<value>Refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/1:label">
+						<value>0</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/5:label">
+						<value>Manual worker</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1:jr:constraintMsg">
+						<value>Should be between 5 and 120 years</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/4:label">
+						<value>Less than once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3:label">
+						<value>In the last month, have you been bitten, scratched, or cut by any of these animals?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3/1:label">
+						<value>Self</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/11:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/1:label">
+						<value>&lt;1h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/8:label">
+						<value>Cat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/2:label">
+						<value>1-2h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3:label">
+						<value>Contact type with <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>
+						</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/2:label">
+						<value>At least once per week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/11:label">
+						<value>Other</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/2:label">
+						<value>Diabetes mellitus</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/9:label">
+						<value>Dog</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/1:label">
+						<value>Pre-school child</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/3:label">
+						<value>Runny nose</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/2:label">
+						<value>At least once per week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/2:label">
+						<value>1-2h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/4:label">
+						<value>Less than once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3:label">
+						<value>Animal contact</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/5:label">
+						<value>Primate</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/8:label">
+						<value>Difficulty breating</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/2:label">
+						<value>Cow, goat, sheep</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/7:label">
+						<value>Antelope</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8/3:label">
+						<value>Somewhere else</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/1:label">
+						<value>Most days of the week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/97:label">
+						<value>Don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2/1:label">
+						<value>yes</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/1:label">
+						<value>Less than six months ago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/8:label">
+						<value>Cat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3:label">
+						<value>What is your primary occupation or daily activity?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4:label">
+						<value>A place more than 50km away (i.e. Berbera/Burco/Other country)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/4:label">
+						<value>Rodent</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/2:label">
+						<value>Hargeisa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/9:label">
+						<value>Dog</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_d:label">
+						<value>Confirm the date for which contacts are recorded</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/3:label">
+						<value>At least once per month</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_1:label">
+						<value>Birth date</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_2:label">
+						<value>What is your age in months?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/12:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/98:label">
+						<value>Refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/3:label">
+						<value>Office worker</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/5:label">
+						<value>Never met before</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/3:label">
+						<value>Half a day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/97:label">
+						<value>Don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2:label">
+						<value>A place 5-10km away (1-2h walk)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1:label">
+						<value>Age (in years) of <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/> &lt;span style=&quot;color: red&quot;&gt;(Always fill in years, NOT months!)&lt;/span&gt;</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/4:label">
+						<value>A whole day</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_z:label">
+						<value>We are almost at the end of this questionnaire, but a few health related questions remain</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2/1:label">
+						<value>male</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/1:label">
+						<value>&lt;1h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/5:label">
+						<value>Never</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/6:label">
+						<value>Bat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/12:label">
+						<value>None</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/2:label">
+						<value>More than six months ago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2:label">
+						<value>Can you tell me your date of birth?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/5:label">
+						<value>Primate</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4/1:label">
+						<value>Local event calendar</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/1:label">
+						<value>Most days of the week</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/6:label">
+						<value>Headache</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/5:label">
+						<value>&gt;4h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3/1:label">
+						<value>Physical</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/3:label">
+						<value>Sickle cell disease</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/3:label">
+						<value>Camel</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1:label">
+						<value>Is the participant a young child (&lt;5yo)?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/3:label">
+						<value>Coworker or schoolmate</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4:label">
+						<value>Could you estimate the total number of other contacts, i.e. those who you met but with who you did not speak, yesterday?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/97:label">
+						<value>don't know</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_2:jr:constraintMsg">
+						<value>Should be between 0 and 60 months</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4:label">
+						<value>In the last month, have you killed, butchered, or feathered any of these animals?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/7:label">
+						<value>Antelope</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_z:hint">
+						<value>Add a new group for each person</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/4:label">
+						<value>Friend</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1:label">
+						<value>A place less than 5km away (i.e. Hargeisa)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/9:label">
+						<value>Dog</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1/s2_c5_q1_x1:label">
+						<value>Name</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/4:label">
+						<value>Alcohol</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/1:label">
+						<value>&lt;1h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/2:label">
+						<value>15min-1h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/2:label">
+						<value>1-2h</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/4:label">
+						<value>School</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9_2:label">
+						<value>Name the town or village you met with current name</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2:jr:constraintMsg">
+						<value>Check the ID</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/4:label">
+						<value>Rodent</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/4:label">
+						<value>Rodent</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5:label">
+						<value>Where did you meet <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/> yesterday?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/6:label">
+						<value>Bat</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/11:label">
+						<value>Keeping animals</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3/0:label">
+						<value>no</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1:label">
+						<value>Contacts</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/98:label">
+						<value>refuse to answer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/6:label">
+						<value>Transport</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/3:label">
+						<value>Camel</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/generated_note_name_60:label">
+						<value>We will now ask you some characteristics for each contact, such as their age and sex. We also ask whether contact was physical or not. A physical contact includes hand shaking, embracing, kissing, and also sharing a glass or utensil that is passed from mouth to mouth.</value>
+					</text>
+				</translation>
+				<translation lang="Somali (so)">
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/5:label">
+						<value>Masaajid</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/5:label">
+						<value>Madhicin/ ha sheegin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/2:label">
+						<value>Cuno xanuun</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/generated_table_list_label_40:label">
+						<value>Imisa jeer ayaad booqatay meelahan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5:label">
+						<value>Usbuucii u danbeeyay ma karsatay amma taataabatay hillibka xayawaankan oo qaydhiin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/11:label">
+						<value>Dameer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/5:label">
+						<value>In ka badan maalin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3:label">
+						<value>Meel/ goob 10 ila 50 kilometer ka fog (tusaale magaladee ugu dhaw)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/9:label">
+						<value>xumad badan/Qandho daran</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/6:label">
+						<value>Fiid meer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4/3:label">
+						<value>Qiyaas ahaan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/3:label">
+						<value>Awr/Rati</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/1:label">
+						<value>Usbuuca intiisa badan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/4:label">
+						<value>Hindhiso</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/7:label">
+						<value>Suuq gayn</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/2:label">
+						<value>Qaraabo kale /xidhiidhkale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/4:label">
+						<value>Maalin dhan/ Caano maal</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/7:label">
+						<value>Midnaba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/3:label">
+						<value>Shaqo/ Camal</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/11:label">
+						<value>Dameer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/4:label">
+						<value>In ka yar hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/8:label">
+						<value>Bisad</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/3:label">
+						<value>Hal saac kana yar laba saac (hal saac kana yar 2 saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/2:label">
+						<value>loda/Riyo/Ido</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/3:label">
+						<value>Ugu yaraan hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/generated_table_list_label_46:label">
+						<value>Markaad booqato goobtan, intee in leeg ayaad joogtay amma wakhti intee leeg baay kugu qaadataa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4:label">
+						<value>Ma isticmaasha waxyaalaha hoos ku qoran</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1:label">
+						<value>Waa imisa da,daadu/imisa ayaad jirtaa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/9:label">
+						<value>Bilaa camal</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/5:label">
+						<value>Daayeer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/9:label">
+						<value>Aay</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/5:label">
+						<value>Madhicin/ ha sheegin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/4:label">
+						<value>In ka yar hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1:label">
+						<value>Numberka agalka</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/2:label">
+						<value>loda/Riyo/Ido</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/3:label">
+						<value>Qaad/ Jaad/ Barje</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/5:label">
+						<value>Sambab xanuun raagay/</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/6:label">
+						<value>&gt;20</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3:label">
+						<value>Meel/ goob 10 ila 50 kilometer ka fog (tusaale magaladee ugu dhaw)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/10:label">
+						<value>Mas</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/2:label">
+						<value>1-2</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/3:label">
+						<value>Ugu yaraan hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/6:label">
+						<value>Midnaba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/1:label">
+						<value>Wakhti ka yar hal saac (1 saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/8:label">
+						<value>Guri Joog</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/1:label">
+						<value>Qufac</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/8:label">
+						<value>Bisad</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2:label">
+						<value>Meel ka durugsan 5 ila 10 kilometer (5-10 KM) laba hal ila laba sacadood (1 ila 2 sacadod) 00 socod ah tusaale tuulada ugu dhaw/ Meel ku calamadi</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/1:label">
+						<value>Usbuuca intiisa badan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4:label">
+						<value>Xidhiidh la leh qofkale [<output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>]</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/2:label">
+						<value>Hal ilaa laba saac (1-2 Saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/6:label">
+						<value>Shhaqo beero ah</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/5:label">
+						<value>11-20</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4:label">
+						<value>Meel/ goob ka badan 50 kilometer (50km) (tusale. Berbera/ Burco ama wadan kale)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/2:label">
+						<value>loda/Riyo/Ido</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/5:label">
+						<value>In ka badan maalin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/7:label">
+						<value>Ugaadh</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b:label">
+						<value>Xilima ayey kugu dhacday oofwareenku?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/6:label">
+						<value>Fiid meer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/2:label">
+						<value>Dugsiga/ Jamacad</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/4:label">
+						<value>Maalin dhan/ Caano maal</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/1:label">
+						<value>Digaale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2:label">
+						<value>Miyaad taabataa mid kamida xayawaanada/Noole hoos ku qoran usbuucii hal mar iyagoo nool</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/5:label">
+						<value>Madhicin/ ha sheegin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/4:label">
+						<value>laba saac kana yar afar saac (2 kana yar 4 saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/4:label">
+						<value>Caateeye</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/5:label">
+						<value>shuban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6:label">
+						<value>Guud ahaan sidee qofkan kulankiinu siduu ahaa [<output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>]</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/3:label">
+						<value>Awr/Rati</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/7:label">
+						<value>Suuq/ goobo ganacsi</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3/2:label">
+						<value>Aan guud ka ahayn</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/3:label">
+						<value>Ugu yaraan hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2:label">
+						<value>Astaamaha dhaqan dhaqaale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/6:label">
+						<value>Neef qabatay/ Xiiq</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/1:label">
+						<value>Qof ka mid ah guriga/Qoyska</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/3:label">
+						<value>Ugu yaraan hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/1:label">
+						<value>Guriga/Aqal</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/2:label">
+						<value>Ugu yaraan maalin usbuuciiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/4:label">
+						<value>Jiir</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4:label">
+						<value>Qofka Masuulka ah/bixiyey ogolaanshaha</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/2:label">
+						<value>Buuri Sanka laga qaato/la neefsado</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/3:label">
+						<value>Maalin Badhkeed / Galin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3:label">
+						<value>Magaca</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/5:label">
+						<value>Daayeer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/2:label">
+						<value>Ugu yaraan maalin usbuuciiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/4:label">
+						<value>6-10</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/1:label">
+						<value>Usbuuca intiisa badan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/2:label">
+						<value>Hal ilaa laba saac (1-2 Saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/1:label">
+						<value>Digaag/ shinbiro</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/4:label">
+						<value>Maalin dhan/ Caano maal</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/2:label">
+						<value>Guri kale /Aqal kale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/5:label">
+						<value>Shisha</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/3:label">
+						<value>Awr/Rati</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/1:label">
+						<value>Badanaa ama Maalin Kasta</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8/1:label">
+						<value>Digaale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4:label">
+						<value>Intee ayaad ku qiyaasi kartaa?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2/2:label">
+						<value>Dhedig</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4:label">
+						<value>Travel</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/present/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3:label">
+						<value>Si sax ah ma u garanaysaa dada ilmaha/Canuga?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3:label">
+						<value>Waa maxay magaca tuuladada/ magalada/deegaan ka ee aad ku sugnayd weekgii ugu danbeeyey ?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/1:label">
+						<value>Wakhti ka yar hal saac (1 saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3/2:label">
+						<value>Walidka</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/8:label">
+						<value>Dukaan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/9:label">
+						<value>Biyo soo saar/</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/1:label">
+						<value>ka yar 15 daqiiqo (15 minits)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/3:label">
+						<value>Maalin Badhkeed / Galin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/11:label">
+						<value>Dameer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/4:label">
+						<value>In ka yar hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/6:label">
+						<value>Fiid meer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/4:label">
+						<value>In ka yar hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/8:label">
+						<value>Bisad</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/12:label">
+						<value>Midnaba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/1:label">
+						<value>Digaag/ shinbiro</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3:label">
+						<value>Waligaa ma kugu sheegay qof shaqaale caafimaad ahi calaamadaha xanuunka ee hoos ku qoran</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2:label">
+						<value>Aqoonsiga ka qaybgalaha</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/10:label">
+						<value>Mas</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9:label">
+						<value>Ma magacaabi kartaa tuulada ama magalada aad ku kulanteen hada sheeg magaceeda <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7:label">
+						<value>Wakhti intee leeg siisay/kugu qadatay inta aad la joogtay qofkan goobtan aad kula kulantay [<output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>]</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/10:label">
+						<value>Hawl gab</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_z:label">
+						<value>Hada waxan ku waydiinayaa in aad xasuusato cidii aad is aragteen shalayto,laga bilaabo markii aad kacday shalayto, ilaa maanta ,is arag waxan uga jeedna qofka aad kulanteen ama is waydaarsateen ugu yaraan kalmado hadal ah</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1:hint">
+						<value>Read from document</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/12:label">
+						<value>Midnaba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/1:label">
+						<value>Digaag/ shinbiro</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/5:label">
+						<value>In ka badan maalin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8:label">
+						<value>Ma waxaad kula kulantay hebel/heblaayo Digaale, Hargeisa mise meel kale magacaw meesha hada <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2:label">
+						<value>Labadii Usbuuc ee u danbeeyey ma isticmaashay/Cuntay Dawooyinka qalajiyaha ah</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/3:label">
+						<value>Maalin Badhkeed / Galin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3:label">
+						<value>Cida ka jawaabtay su,aalaha</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/present/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/2:label">
+						<value>loda/Riyo/Ido</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1:hint">
+						<value>Sanado</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/3:label">
+						<value>3-5</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/5:label">
+						<value>Daayeer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/5:label">
+						<value>Mid kale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/1:label">
+						<value>Digaag/ shinbiro</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c7_geo:label">
+						<value>Dooro goobta aad hada joogtid</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2/2:label">
+						<value>Dhedig</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2:hint">
+						<value>Read from document</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/4:label">
+						<value>Maalin dhan/ Caano maal</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/1:label">
+						<value>Oof wareen</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1:label">
+						<value>ma kugu dhacay mid ka mid ah calaamadaha xanuun/cabashooyinka hoos ku qoran labadii usbuuc ee u danbeeyey</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2/1:label">
+						<value>Lab</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/2:label">
+						<value>Ugu yaraan Hal mar Usbuuciiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/3:label">
+						<value>Maalin Badhkeed / Galin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/4:label">
+						<value>Jiir</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/7:label">
+						<value>Ugaadh</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1:label">
+						<value>Shalay ma u dhawaatay noolahan hoos ku xusan in u jirta laba talaabo ?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/7:label">
+						<value>Ugaadh</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/2:label">
+						<value>Ugu yaraan maalin usbuuciiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/5:label">
+						<value>Madhicin/ ha sheegin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1:jr:constraintMsg">
+						<value>Should be between 0 and 120 years</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4:label">
+						<value>Bishii ugu danbaysay ma gawracday ,balaha ma ka riftay ,ama ma qalatay xawaanadan hoos ku sheegan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/7:label">
+						<value>Culays xaga neefsashada ah</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2:label">
+						<value>Jinsiga [<output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>]</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/10:label">
+						<value>Mas</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/11:label">
+						<value>Dameer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1:jr:constraintMsg">
+						<value>Check the ID</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/10:label">
+						<value>Mas</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4/2:label">
+						<value>Qofkale dadiisa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/1:label">
+						<value>Digaag/ shinbiro</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/5:label">
+						<value>In ka badan maalin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/5:label">
+						<value>In ka badan maalin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1:label">
+						<value>Meel ka yar shan kilometer (5km) ayey ka durugsan tahay hargeisa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8/2:label">
+						<value>Hargeisa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/3:label">
+						<value>Ugu yaraan hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/1:label">
+						<value>Sigaar ama Buuri</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/10:label">
+						<value>Mas</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/11:label">
+						<value>Dameer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/present:label">
+						<value>Masuulka Jooga?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/4:label">
+						<value>Shaqo Dukaan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/12:label">
+						<value>Midnaba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/9:label">
+						<value>Aay</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2:label">
+						<value>Waa maxay jinsiga ilmuhu?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/1:label">
+						<value>0</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/5:label">
+						<value>shaqo maalinle ah</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/10:label">
+						<value>xumad caadi ah</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1:jr:constraintMsg">
+						<value>Should be between 5 and 120 years</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/4:label">
+						<value>In ka yar hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3:label">
+						<value>Bishii ugu danbaysay miyuu ku qaniinay, amma xagtay ama gooyay jidhkaaga mid kamida xayawaanadan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3/1:label">
+						<value>Adiga</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/11:label">
+						<value>Midnaba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/1:label">
+						<value>Wakhti ka yar hal saac (1 saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/8:label">
+						<value>Bisad</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/2:label">
+						<value>Hal ilaa laba saac (1-2 Saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3:label">
+						<value>Nooca kulan ka/is araga [<output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>]</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/2:label">
+						<value>Ugu yaraan maalin usbuuciiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/11:label">
+						<value>Mid kale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/2:label">
+						<value>Sonkor/Kaadi macaan/ Macaan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/9:label">
+						<value>Aay</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/1:label">
+						<value>Malcaamad</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/3:label">
+						<value>San hoor/Dhuuf</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/2:label">
+						<value>Ugu yaraan maalin usbuuciiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/2:label">
+						<value>Hal ilaa laba saac (1-2 Saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/4:label">
+						<value>In ka yar hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3:label">
+						<value>Taabasho xayawaan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/5:label">
+						<value>Daayeer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/8:label">
+						<value>Naqaska/ Neefta oo ku qabata</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/2:label">
+						<value>loda/Riyo/Ido</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/7:label">
+						<value>Ugaadh</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8/3:label">
+						<value>Meel kale</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/1:label">
+						<value>Usbuuca intiisa badan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2/1:label">
+						<value>Haa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/1:label">
+						<value>In ka yar lix bilood ka hor</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/8:label">
+						<value>Bisad</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3:label">
+						<value>Waa maxay shaqada uu qabtaa maalin kasta /Badanaba?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4:label">
+						<value>Meel/ goob ka badan 50 kilometer (50km) (tusale. Berbera/ Burco ama wadan kale)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/4:label">
+						<value>Jiir</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/2:label">
+						<value>Hargeisa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/9:label">
+						<value>Aay</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_d:label">
+						<value>Xaqiiiji taariikhta aad is aragteen si aan u qoro</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/3:label">
+						<value>Ugu yaraan hal mar bishiiba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_1:label">
+						<value>Xiliga dhalashada</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_2:label">
+						<value>Marka laga soo tiriyo bilaha waa imisa bilood ilhuhu/cunugu?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/12:label">
+						<value>Midnaba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/3:label">
+						<value>Shaqo xafiis</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/5:label">
+						<value>Waligayba hada ka hor lama kulmin/ Hada ka hor lama kulmin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/3:label">
+						<value>Maalin Badhkeed / Galin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2:label">
+						<value>Meel ka durugsan 5 ila 10 kilometer (5-10 KM) laba hal ila laba sacadood (1 ila 2 sacadod) 00 socod ah tusaale tuulada ugu dhaw/ Meel ku calamadi</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1:label">
+						<value>Dada/ Cimriga [<output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>] &lt;span style=&quot;color: red&quot;&gt;(Always fill in years, NOT months!)&lt;/span&gt;</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/4:label">
+						<value>Maalin dhan/ Caano maal</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_z:label">
+						<value>Su,aalaha badan koodu waa dhamaad/ waxaaynu ku jirnaa intii ugu danbaysay su,aalaa aan ku waydiinayey laakiin waxa inoo hadhay su,aalo yar oo caafimaadka xidhiidh la leh</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2/1:label">
+						<value>Lab</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/1:label">
+						<value>Wakhti ka yar hal saac (1 saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/5:label">
+						<value>Madhicin/ ha sheegin</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/6:label">
+						<value>Fiid meer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/12:label">
+						<value>Midnaba</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/2:label">
+						<value>In ka badan lix bilood ka hor</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2:label">
+						<value>Ma ii sheegi kartaa xiliga uu dhashay ilmuhu</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/5:label">
+						<value>Daayeer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4/1:label">
+						<value>Xiliqisaaseed la garanaayo</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/1:label">
+						<value>Usbuuca intiisa badan</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/6:label">
+						<value>Madax xanuun</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/5:label">
+						<value>ka badan afar saac (4 saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3/1:label">
+						<value>Korka sare/ Guud ka sare</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/3:label">
+						<value>Dhiig la,aan/ Xanuun ku dhaca dhiiga</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/3:label">
+						<value>Awr/Rati</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1:label">
+						<value>Mayahay ilmahani mid ka yar da,da 5 sano</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/3:label">
+						<value>Isku dugsi/isku waxbarasho</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4:label">
+						<value>Ma qiyaasi karta tirada dadka aad la kulantay shalay, waa kuwii aad la kulantay lakin aanad la hadlin? Shalayto</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/97:label">
+						<value>Garan maago</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_2:jr:constraintMsg">
+						<value>Should be between 0 and 60 months</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1:hint">
+						<value>Sanado</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/7:label">
+						<value>Ugaadh</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_z:hint">
+						<value>Ku dar kooxda cusub qofka kasta oo ka mid ah</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/4:label">
+						<value>saaxiib</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1:label">
+						<value>Meel ka yar shan kilometer (5km) ayey ka durugsan tahay hargeisa</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/9:label">
+						<value>Aay</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1/s2_c5_q1_x1:label">
+						<value>Tilmaam ama magacaw</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/4:label">
+						<value>Khamro/Maandooriye</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/1:label">
+						<value>Wakhti ka yar hal saac (1 saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/2:label">
+						<value>15 daqiiqo kana yar 1 saac</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/2:label">
+						<value>Hal ilaa laba saac (1-2 Saac)</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/4:label">
+						<value>Dugsi/iskool</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9_2:label">
+						<value>Sheeg magaca tuulada amma magaalada aad kula kulantay <output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>?</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2:jr:constraintMsg">
+						<value>Check the ID</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/4:label">
+						<value>Jiir</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/4:label">
+						<value>Jiir</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5:label">
+						<value>Halkeed ku kulanteen qofkaa shalay magacow mesha hada [<output value=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name "/>]</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/6:label">
+						<value>Fiid meer</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/11:label">
+						<value>Adhi jire</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3/0:label">
+						<value>Maya</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1:label">
+						<value>Taabasho amma la kulmid</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/98:label">
+						<value>Diiday in ay jawaaban</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/6:label">
+						<value>Gaadiid/ Safar</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/3:label">
+						<value>Awr/Rati</value>
+					</text>
+					<text id="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/generated_note_name_60:label">
+						<value>Waxan imika ku waydiinaya astaamaha qof kasta oo aad is aragteensida da,da iyo jinsiga sido kale waxan ku waydiinayaa in is aragiinu ahaa mid taabasho ah, sida gacan qaad, salaan laab qabasho ah, dhunkasho ama in aad wadaagtaan weel cunto oo qof kasta afkiisa gaadha</value>
+					</text>
+				</translation>
+			</itext>
+			<instance>
+				<questionnaire2_translations_kvz_ms id="espicc_digaale_s2_b" version="320">
+					<start/>
+					<today/>
+					<deviceid/>
+					<subscriberid/>
+					<simserial/>
+					<phonenumber/>
+					<username/>
+					<email/>
+					<s2_c1>
+						<s2_c1_q1/>
+						<s2_c1_q2/>
+					</s2_c1>
+					<present/>
+					<is_present>
+						<s2_c1_b>
+							<s2_c1_q3/>
+							<s2_c1_q3_other/>
+							<s2_c1_q4/>
+						</s2_c1_b>
+						<consented>
+							<s2_c2>
+								<s2_c2_q1/>
+								<s2_c2_q1_x1/>
+								<s2_c2_q1_x2/>
+								<s2_c2_q1_x2_1/>
+								<s2_c2_q1_x2_2/>
+								<s2_c2_q1_x2_3/>
+								<s2_c2_q1_x2_4/>
+								<s2_c2_q2/>
+								<s2_c2_q3/>
+								<s2_c2_q3_other/>
+							</s2_c2>
+							<s2_c3>
+								<s2_c3_q1/>
+								<s2_c3_q2/>
+								<s2_c3_q3/>
+								<s2_c3_q4/>
+								<s2_c3_q5/>
+							</s2_c3>
+							<s2_c4>
+								<s2_c4_q1>
+									<generated_table_list_label_40/>
+									<reserved_name_for_field_list_labels_41/>
+									<s2_c4_q1_x1/>
+									<s2_c4_q1_x2/>
+									<s2_c4_q1_x3/>
+									<s2_c4_q1_x4/>
+								</s2_c4_q1>
+								<s2_c4_q2>
+									<generated_table_list_label_46/>
+									<reserved_name_for_field_list_labels_47/>
+									<s2_c4_q2_x1/>
+									<s2_c4_q2_x2/>
+									<s2_c4_q2_x3/>
+									<s2_c4_q2_x4/>
+								</s2_c4_q2>
+								<s2_c4_q3/>
+								<s2_c4_q3_other/>
+							</s2_c4>
+							<s2_c5>
+								<s2_c5_z/>
+								<s2_c5_d>today() - 1</s2_c5_d>
+								<s2_c5_q1 jr:template="">
+									<s2_c5_q1_x1/>
+								</s2_c5_q1>
+								<generated_note_name_60/>
+								<s2_c5_q2_count/>
+								<s2_c5_q2 jr:template="">
+									<current_name/>
+									<s2_c5_q3>
+										<s2_c5_q3_x1/>
+										<s2_c5_q3_x2/>
+										<s2_c5_q3_x3/>
+										<s2_c5_q3_x4/>
+										<s2_c5_q3_x5/>
+										<s2_c5_q3_x6/>
+										<s2_c5_q3_x7/>
+									</s2_c5_q3>
+									<s2_c5_q3_x8/>
+									<s2_c5_q3_x9/>
+									<s2_c5_q3_x9_2/>
+								</s2_c5_q2>
+								<s2_c5_q4/>
+							</s2_c5>
+							<s2_c6>
+								<s2_c6_z/>
+								<s2_c6_q1/>
+								<s2_c6_q1_other/>
+								<s2_c6_q2/>
+								<s2_c6_q3/>
+								<s2_c6_q3b/>
+								<s2_c6_q4/>
+							</s2_c6>
+						</consented>
+					</is_present>
+					<s2_c7_geo/>
+					<end/>
+					<meta>
+						<instanceID/>
+					</meta>
+				</questionnaire2_translations_kvz_ms>
+			</instance>
+			<bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/questionnaire2_translations_kvz_ms/start" type="dateTime"/>
+			<bind jr:preload="date" jr:preloadParams="today" nodeset="/questionnaire2_translations_kvz_ms/today" type="date"/>
+			<bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/questionnaire2_translations_kvz_ms/deviceid" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/questionnaire2_translations_kvz_ms/subscriberid" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="simserial" nodeset="/questionnaire2_translations_kvz_ms/simserial" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/questionnaire2_translations_kvz_ms/phonenumber" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="username" nodeset="/questionnaire2_translations_kvz_ms/username" type="string"/>
+			<bind jr:preload="property" jr:preloadParams="email" nodeset="/questionnaire2_translations_kvz_ms/email" type="string"/>
+			<bind constraint=". &gt; 0" jr:constraintMsg="jr:itext('/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1:jr:constraintMsg')" nodeset="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1" required="true()" type="int"/>
+			<bind constraint=". &gt;=  /questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1 *100 + 1 and .&lt;=  /questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1 *100 + 99" jr:constraintMsg="jr:itext('/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2:jr:constraintMsg')" nodeset="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2" required="true()" type="int"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/present" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present" relevant=" /questionnaire2_translations_kvz_ms/present =1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3_other" relevant="selected(../s2_c1_q3, 'other')" type="string"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented" relevant=" /questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4  = 1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1" required="true()" type="select1"/>
+			<bind constraint=". &gt; 5 and . &lt; 120" jr:constraintMsg="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1:jr:constraintMsg')" nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1" relevant=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1  = 0" required="true()" type="int"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2" relevant=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1  = 1" required="true()" type="select1"/>
+			<bind constraint=". &gt;= today() - 5*365 and . &lt;= today()" nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_1" relevant=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2  = 1" required="true()" type="date"/>
+			<bind constraint=". &gt;= 0 and . &lt;= 60" jr:constraintMsg="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_2:jr:constraintMsg')" nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_2" relevant=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2  = 0" required="true()" type="int"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4" relevant=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3  = 0" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3_other" relevant="selected(../s2_c2_q3, 'other')" type="string"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1" required="true()" type="select"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2" required="true()" type="select"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3" required="true()" type="select"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4" required="true()" type="select"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5" required="true()" type="select"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/generated_table_list_label_40" readonly="true()" type="string"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/generated_table_list_label_46" readonly="true()" type="string"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1" relevant="selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1 , '1') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1 , '2') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1 , '3') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1 , '4')" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2" relevant="selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2 , '1') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2 , '2') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2 , '3') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2 , '4')" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3" relevant="selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3 , '1') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3 , '2') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3 , '3') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3 , '4')" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4" relevant="selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4 , '1') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4 , '2') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4 , '3') or selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4 , '4')" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3_other" relevant="selected(../s2_c4_q3, 'other')" type="string"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_z" readonly="true()" type="string"/>
+			<bind constraint=". &lt; today() and . &gt; date(&quot;2019-09-09&quot;)" nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_d" required="true()" type="date"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1" required="true()"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1/s2_c5_q1_x1" required="true()" type="string"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/generated_note_name_60" readonly="true()" type="string"/>
+			<bind calculate="count( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1/s2_c5_q1_x1 )" nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2_count" readonly="true()" type="string"/>
+			<bind calculate="indexed-repeat( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1/s2_c5_q1_x1 ,  /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1 , position(..))" nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/current_name" type="string"/>
+			<bind constraint=". &gt;= 0 and . &lt; 120" jr:constraintMsg="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1:jr:constraintMsg')" nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1" required="true()" type="int"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5" required="true()" type="select"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8" relevant="not(selected( ../s2_c5_q3/s2_c5_q3_x5 , '1'))" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9" relevant=" ../s2_c5_q3_x8 =3" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9_2" relevant=" ../s2_c5_q3_x9 =1" required="true()" type="string"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_z" readonly="true()" type="string"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1" required="true()" type="select"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1_other" relevant="selected(../s2_c6_q1, 'other')" type="string"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3" required="true()" type="select"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b" relevant="selected( /questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3 , '1')" required="true()" type="select1"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4" required="true()" type="select"/>
+			<bind nodeset="/questionnaire2_translations_kvz_ms/s2_c7_geo" type="geopoint"/>
+			<bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/questionnaire2_translations_kvz_ms/end" type="dateTime"/>
+			<bind jr:preload="uid" nodeset="/questionnaire2_translations_kvz_ms/meta/instanceID" readonly="true()" type="string"/>
+		</model>
+	</h:head>
+	<h:body>
+		<group ref="/questionnaire2_translations_kvz_ms/s2_c1">
+			<input ref="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1">
+				<label ref="jr:itext('/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1:label')"/>
+				<hint ref="jr:itext('/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q1:hint')"/>
+			</input>
+			<input ref="/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2">
+				<label ref="jr:itext('/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2:label')"/>
+				<hint ref="jr:itext('/questionnaire2_translations_kvz_ms/s2_c1/s2_c1_q2:hint')"/>
+			</input>
+		</group>
+		<select1 ref="/questionnaire2_translations_kvz_ms/present">
+			<label ref="jr:itext('/questionnaire2_translations_kvz_ms/present:label')"/>
+			<item>
+				<label ref="jr:itext('/questionnaire2_translations_kvz_ms/present/1:label')"/>
+				<value>1</value>
+			</item>
+			<item>
+				<label ref="jr:itext('/questionnaire2_translations_kvz_ms/present/0:label')"/>
+				<value>0</value>
+			</item>
+		</select1>
+		<group ref="/questionnaire2_translations_kvz_ms/is_present">
+			<group ref="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b">
+				<select1 ref="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3">
+					<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3/2:label')"/>
+						<value>2</value>
+					</item>
+					<item>
+						<label>Other</label>
+						<value>other</value>
+					</item>
+				</select1>
+				<input ref="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q3_other">
+					<label>Specify other.</label>
+				</input>
+				<select1 ref="/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4">
+					<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4:label')"/>
+					<item>
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4/1:label')"/>
+						<value>1</value>
+					</item>
+					<item>
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/s2_c1_b/s2_c1_q4/0:label')"/>
+						<value>0</value>
+					</item>
+				</select1>
+			</group>
+			<group ref="/questionnaire2_translations_kvz_ms/is_present/consented">
+				<group ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2">
+					<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2:label')"/>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1/0:label')"/>
+							<value>0</value>
+						</item>
+					</select1>
+					<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1:label')"/>
+						<hint ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x1:hint')"/>
+					</input>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2/0:label')"/>
+							<value>0</value>
+						</item>
+					</select1>
+					<input appearance="no-calendar" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_1">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_1:label')"/>
+					</input>
+					<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_2">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_2:label')"/>
+					</input>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_3/0:label')"/>
+							<value>0</value>
+						</item>
+					</select1>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q1_x2_4/3:label')"/>
+							<value>3</value>
+						</item>
+					</select1>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q2/2:label')"/>
+							<value>2</value>
+						</item>
+					</select1>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/6:label')"/>
+							<value>6</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/7:label')"/>
+							<value>7</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/8:label')"/>
+							<value>8</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/9:label')"/>
+							<value>9</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/10:label')"/>
+							<value>10</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/11:label')"/>
+							<value>11</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3/98:label')"/>
+							<value>98</value>
+						</item>
+						<item>
+							<label>Other</label>
+							<value>other</value>
+						</item>
+					</select1>
+					<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c2/s2_c2_q3_other">
+						<label>Specify other.</label>
+					</input>
+				</group>
+				<group ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3">
+					<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3:label')"/>
+					<select ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/6:label')"/>
+							<value>6</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/7:label')"/>
+							<value>7</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/8:label')"/>
+							<value>8</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/9:label')"/>
+							<value>9</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/10:label')"/>
+							<value>10</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/11:label')"/>
+							<value>11</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/12:label')"/>
+							<value>12</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q1/98:label')"/>
+							<value>98</value>
+						</item>
+					</select>
+					<select ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/6:label')"/>
+							<value>6</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/7:label')"/>
+							<value>7</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/8:label')"/>
+							<value>8</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/9:label')"/>
+							<value>9</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/10:label')"/>
+							<value>10</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/11:label')"/>
+							<value>11</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/12:label')"/>
+							<value>12</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q2/98:label')"/>
+							<value>98</value>
+						</item>
+					</select>
+					<select ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/6:label')"/>
+							<value>6</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/7:label')"/>
+							<value>7</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/8:label')"/>
+							<value>8</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/9:label')"/>
+							<value>9</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/10:label')"/>
+							<value>10</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/11:label')"/>
+							<value>11</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/12:label')"/>
+							<value>12</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q3/98:label')"/>
+							<value>98</value>
+						</item>
+					</select>
+					<select ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/6:label')"/>
+							<value>6</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/7:label')"/>
+							<value>7</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/8:label')"/>
+							<value>8</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/9:label')"/>
+							<value>9</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/10:label')"/>
+							<value>10</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/11:label')"/>
+							<value>11</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/12:label')"/>
+							<value>12</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q4/98:label')"/>
+							<value>98</value>
+						</item>
+					</select>
+					<select ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/6:label')"/>
+							<value>6</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/7:label')"/>
+							<value>7</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/8:label')"/>
+							<value>8</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/9:label')"/>
+							<value>9</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/10:label')"/>
+							<value>10</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/11:label')"/>
+							<value>11</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/12:label')"/>
+							<value>12</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c3/s2_c3_q5/98:label')"/>
+							<value>98</value>
+						</item>
+					</select>
+				</group>
+				<group ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4">
+					<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4:label')"/>
+					<group appearance="field-list" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1">
+						<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/generated_table_list_label_40">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/generated_table_list_label_40:label')"/>
+						</input>
+						<select1 appearance="label" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41">
+							<label> </label>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/reserved_name_for_field_list_labels_41/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+						<select1 appearance="list-nolabel" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1:label')"/>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x1/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+						<select1 appearance="list-nolabel" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2:label')"/>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x2/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+						<select1 appearance="list-nolabel" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3:label')"/>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x3/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+						<select1 appearance="list-nolabel" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4:label')"/>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q1/s2_c4_q1_x4/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+					</group>
+					<group appearance="field-list" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2">
+						<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/generated_table_list_label_46">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/generated_table_list_label_46:label')"/>
+						</input>
+						<select1 appearance="label" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47">
+							<label> </label>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/reserved_name_for_field_list_labels_47/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+						<select1 appearance="list-nolabel" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1:label')"/>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x1/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+						<select1 appearance="list-nolabel" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2:label')"/>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x2/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+						<select1 appearance="list-nolabel" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3:label')"/>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x3/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+						<select1 appearance="list-nolabel" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4">
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4:label')"/>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/1:label')"/>
+								<value>1</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/2:label')"/>
+								<value>2</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/3:label')"/>
+								<value>3</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/4:label')"/>
+								<value>4</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/5:label')"/>
+								<value>5</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/97:label')"/>
+								<value>97</value>
+							</item>
+							<item>
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q2/s2_c4_q2_x4/98:label')"/>
+								<value>98</value>
+							</item>
+						</select1>
+					</group>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3/98:label')"/>
+							<value>98</value>
+						</item>
+						<item>
+							<label>Other</label>
+							<value>other</value>
+						</item>
+					</select1>
+					<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c4/s2_c4_q3_other">
+						<label>Specify other.</label>
+					</input>
+				</group>
+				<group ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5">
+					<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_z">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_z:label')"/>
+						<hint ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_z:hint')"/>
+					</input>
+					<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_d">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_d:label')"/>
+					</input>
+					<group ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1:label')"/>
+						<repeat nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1">
+							<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1/s2_c5_q1_x1">
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q1/s2_c5_q1_x1:label')"/>
+							</input>
+						</repeat>
+					</group>
+					<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/generated_note_name_60">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/generated_note_name_60:label')"/>
+					</input>
+					<group ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2">
+						<label/>
+						<repeat jr:count=" /questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2_count " nodeset="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2">
+							<group appearance="field-list" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3">
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3:label')"/>
+								<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1">
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1:label')"/>
+									<hint ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x1:hint')"/>
+								</input>
+								<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2">
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2:label')"/>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2/1:label')"/>
+										<value>1</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x2/2:label')"/>
+										<value>2</value>
+									</item>
+								</select1>
+								<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3">
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3:label')"/>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3/1:label')"/>
+										<value>1</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x3/2:label')"/>
+										<value>2</value>
+									</item>
+								</select1>
+								<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4">
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4:label')"/>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/1:label')"/>
+										<value>1</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/2:label')"/>
+										<value>2</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/3:label')"/>
+										<value>3</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/4:label')"/>
+										<value>4</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/5:label')"/>
+										<value>5</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/97:label')"/>
+										<value>97</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x4/98:label')"/>
+										<value>98</value>
+									</item>
+								</select1>
+								<select ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5">
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5:label')"/>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/1:label')"/>
+										<value>1</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/2:label')"/>
+										<value>2</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/3:label')"/>
+										<value>3</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/4:label')"/>
+										<value>4</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/5:label')"/>
+										<value>5</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/6:label')"/>
+										<value>6</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/7:label')"/>
+										<value>7</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/8:label')"/>
+										<value>8</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/9:label')"/>
+										<value>9</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x5/11:label')"/>
+										<value>11</value>
+									</item>
+								</select>
+								<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6">
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6:label')"/>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/1:label')"/>
+										<value>1</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/2:label')"/>
+										<value>2</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/3:label')"/>
+										<value>3</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/4:label')"/>
+										<value>4</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/5:label')"/>
+										<value>5</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/97:label')"/>
+										<value>97</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x6/98:label')"/>
+										<value>98</value>
+									</item>
+								</select1>
+								<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7">
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7:label')"/>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/1:label')"/>
+										<value>1</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/2:label')"/>
+										<value>2</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/3:label')"/>
+										<value>3</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/4:label')"/>
+										<value>4</value>
+									</item>
+									<item>
+										<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3/s2_c5_q3_x7/5:label')"/>
+										<value>5</value>
+									</item>
+								</select1>
+							</group>
+							<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8">
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8:label')"/>
+								<item>
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8/1:label')"/>
+									<value>1</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8/2:label')"/>
+									<value>2</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x8/3:label')"/>
+									<value>3</value>
+								</item>
+							</select1>
+							<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9">
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9:label')"/>
+								<item>
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/1:label')"/>
+									<value>1</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/0:label')"/>
+									<value>0</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/97:label')"/>
+									<value>97</value>
+								</item>
+								<item>
+									<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9/98:label')"/>
+									<value>98</value>
+								</item>
+							</select1>
+							<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9_2">
+								<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q2/s2_c5_q3_x9_2:label')"/>
+							</input>
+						</repeat>
+					</group>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c5/s2_c5_q4/6:label')"/>
+							<value>6</value>
+						</item>
+					</select1>
+				</group>
+				<group appearance="field-list" ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6">
+					<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_z">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_z:label')"/>
+					</input>
+					<select ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/6:label')"/>
+							<value>6</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/7:label')"/>
+							<value>7</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/8:label')"/>
+							<value>8</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/9:label')"/>
+							<value>9</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/10:label')"/>
+							<value>10</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/11:label')"/>
+							<value>11</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1/98:label')"/>
+							<value>98</value>
+						</item>
+						<item>
+							<label>Other</label>
+							<value>other</value>
+						</item>
+					</select>
+					<input ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q1_other">
+						<label>Specify other.</label>
+					</input>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/0:label')"/>
+							<value>0</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q2/98:label')"/>
+							<value>98</value>
+						</item>
+					</select1>
+					<select ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/6:label')"/>
+							<value>6</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/7:label')"/>
+							<value>7</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3/98:label')"/>
+							<value>98</value>
+						</item>
+					</select>
+					<select1 ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q3b/98:label')"/>
+							<value>98</value>
+						</item>
+					</select1>
+					<select ref="/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4">
+						<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4:label')"/>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/1:label')"/>
+							<value>1</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/2:label')"/>
+							<value>2</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/3:label')"/>
+							<value>3</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/4:label')"/>
+							<value>4</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/5:label')"/>
+							<value>5</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/6:label')"/>
+							<value>6</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/97:label')"/>
+							<value>97</value>
+						</item>
+						<item>
+							<label ref="jr:itext('/questionnaire2_translations_kvz_ms/is_present/consented/s2_c6/s2_c6_q4/98:label')"/>
+							<value>98</value>
+						</item>
+					</select>
+				</group>
+			</group>
+		</group>
+		<input ref="/questionnaire2_translations_kvz_ms/s2_c7_geo">
+			<label ref="jr:itext('/questionnaire2_translations_kvz_ms/s2_c7_geo:label')"/>
+		</input>
+	</h:body>
+</h:html>
