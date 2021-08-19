@@ -8,7 +8,7 @@ This work is part of a larger study: Evaluating Strategies for Pneumococcal Immu
 
 ### How to download
 
-You can clone the repository or download the zip from this URL: <https://github.com/kevinvzandvoort/ESPICC-Somaliland-Digaale-survey-2019/archive/refs/heads/main.zip>.
+You can clone the repository or download the zip from this URL: <https://github.com/kevinvzandvoort/espicc-somaliland-digaale-survey-2019/archive/refs/heads/main.zip>.
 
 ### Questionnaires
 
