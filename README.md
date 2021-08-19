@@ -4,6 +4,8 @@ This repository contains the data and code used for all analyses described in ou
   
 Van Zandvoort K, Bobe MO, Hassan AI, Abdi MI, Ahmed MS, Warsame MY, Wais MA, Diggle E, Satzke C, Mulholland K, Egeh MM, Hassan MM, Hergeeye MA, Eggo RM, Checchi F, Flasche S, *Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland*. Available at <http://example.com>.
 
+This work is part of a larger study: Evaluating Strategies for Pneumococcal Immunization Campaigns in Crises [(ESPICC)](https://www.elrha.org/project/pneumococcal-vaccination-strategies-for-crisis-affected-populations/).
+
 ### How to download
 
 You can clone the repository or download the zip from this URL: <https://github.com/kevinvzandvoort/ESPICC-Somaliland-Digaale-survey-2019/archive/refs/heads/main.zip>.
