@@ -1,6 +1,6 @@
 # YAML 1.2
 ---
-authors: 
+authors:
   -
     affiliation: "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, United Kingdom"
     family-names: "van Zandvoort"
@@ -38,10 +38,12 @@ authors:
     affiliation: "Murdoch Children's Research Institute, Australia"
     family-names: Satzke
     given-names: "Catherine"
+    orcid: "https://orcid.org/0000-0003-3164-8849"
   -
     affiliation: "Murdoch Children's Research Institute, Australia"
     family-names: Mulholland
     given-names: "Kim"
+    orcid: "https://orcid.org/0000-0001-7947-680X"
   -
     affiliation: "Save the Children International, Somaliland"
     family-names: Egeh
@@ -58,14 +60,17 @@ authors:
     affiliation: "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, United Kingdom"
     family-names: "Eggo"
     given-names: "Rosalind M"
+    orcid: "https://orcid.org/0000-0002-0362-6717"
   -
     affiliation: "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, United Kingdom"
     family-names: "Checchi"
     given-names: "Francesco"
+    orcid: "https://orcid.org/0000-0001-9030-5382"
   -
     affiliation: "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, United Kingdom"
     family-names: "Flasche"
     given-names: "Stefan"
+    orcid: "https://orcid.org/0000-0002-5808-2606"
 doi: "10.5281/zenodo.5225141"
 license: MIT
 message: "If you use this data, please cite it using these metadata."
