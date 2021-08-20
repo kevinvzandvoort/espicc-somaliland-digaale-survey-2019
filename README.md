@@ -34,7 +34,7 @@ The following questionnaires are available:
 Only a subset of the data collected with these questionnaires during the survey has been used for this analysis.
 Data has been anonymized, and links between household-, contact-, and nutrition- data have been removed.
 The anonymized data can be used to replicate all analyses, figures, and tables in the manuscript.
-All data is stored in the `./data` folder.
+All data is stored in the `./data` folder. A data dictonary is provided in `./data/data_dictionary.xlsx`
 
 The following datasets are included:
 
