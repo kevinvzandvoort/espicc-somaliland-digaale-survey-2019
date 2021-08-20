@@ -1,7 +1,7 @@
 # Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland
-  
+
 This repository contains the data and code used for all analyses described in our manuscript:
-  
+
 Van Zandvoort K, Bobe MO, Hassan AI, Abdi MI, Ahmed MS, Warsame MY, Wais MA, Diggle E, Satzke C, Mulholland K, Egeh MM, Hassan MM, Hergeeye MA, Eggo RM, Checchi F, Flasche S, *Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland*. Available at <http://example.com>.
 
 This work is part of a larger study: Evaluating Strategies for Pneumococcal Immunization Campaigns in Crises [(ESPICC)](https://www.elrha.org/project/pneumococcal-vaccination-strategies-for-crisis-affected-populations/).
@@ -17,7 +17,7 @@ This survey was implemented using Open Data Kit. Android tablets were provided b
 - Questionnaires were programmed in xlsx, and can be found in the `./questionnaire/xlsx` folder
 - They were converted in xls files uploaded to an ODK server and used with *ODK Collect* during fieldwork. The xls files can be found in the `./questionnaire/xls` folder.
   - The xls for the household questionnaire was manually edited to randomly select household members (based on their age), for inclusion in the contact survey. Edits are wrapped within comments listed as `<MANUAL EDIT>` and `<END MANUAL>`.
-  
+
 The following questionnaires are available:
 
 - `s1_household`
@@ -28,7 +28,7 @@ The following questionnaires are available:
   - A form to enter anthropometric measures
 - `s4_missing_houses`
   - A form to ask neighbours of shelters that were absent on all visits about the status of these shelters
-  
+
 ### Included data sets
 
 Only a subset of the data collected with these questionnaires during the survey has been used for this analysis.
@@ -67,10 +67,15 @@ The following datasets are included:
   - collected with the `s3_anthropometry` form
 - `regression_data.RDS`
   - combined (aggregated) datasets of contact, participant, nutrition, and household level data, used for logistic regression analysis
-  
+
 ### Figures and tables
 
 Code for the analysis can be found in the `./scripts` folder.
 The analysis can be replicated by running the `index.R` file (in R), which sources these scripts.
 
 Figures and tables will be created in a newly formed `./output` folder
+
+### Socialmixr
+
+The `./scripts/socialmixr_zenodo_data.R` script generates the data that can be used with the `socialmixr` package.
+This data has been uploaded to Zenodo: <http://example.com>.
