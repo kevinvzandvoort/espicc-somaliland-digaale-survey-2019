@@ -78,4 +78,58 @@ Figures and tables will be created in a newly formed `./output` folder
 ### Socialmixr
 
 The `./scripts/socialmixr_zenodo_data.R` script generates the data that can be used with the `socialmixr` package.
-This data has been uploaded to Zenodo: <http://example.com>.
+This data has been uploaded to Zenodo: <"https://zenodo.org/record/5226281#.YR-TzlvTVH6">.
+
+To use data in `socialmixr`:
+```r
+pacman::p_load(magrittr, socialmixr, data.table)
+
+#' Get data from Zenodo
+digaale_contact_data =
+  socialmixr::get_survey("https://zenodo.org/record/5226281#.YR-TzlvTVH6")
+
+#' The estimated population size in Digaale (for provided age groups)
+#'  can manually be downloaded
+digaale_survey_population =
+  data.table::fread("https://zenodo.org/record/5226281/files/espicc_somaliland_digaale_survey_population.csv")
+
+#' Note that weekends fall on Fridays and Saturdays in Somaliland.
+#' - The dayofweek variable provided in the dataset has been kept
+#'   consistent with R defaults (0: Sunday to 6: Saturday)
+digaale_contact_data$participants[, c("dayofweek", "dayofweek_name", "weekend")] %>%
+  unique %>% setorder(dayofweek) %>% .[]
+#' socialmixr currently assumes the weekend to fall on dayofweek
+#'  6 (Saturday) and 0 (Sunday)
+#' - dayofweek can be manually edited so that Fridays and Saturdays
+#'   are taken as the weekend, if you wish to weight contacts by
+#'   weekday
+digaale_contact_data$participants[, dayofweek := ifelse(dayofweek == 6, 0, dayofweek + 1)]
+
+#' The contact matrix can then be constructed as follows
+#' - The provided survey_population can be used to construct a
+#'   population representative matrix for Digaale IDP camp
+#' - As the sample is not self-weighing (oversampling of young
+#'   age groups), it is recommended to apply the survey_weight
+#'   as weights
+digaale_contact_matrix = digaale_contact_data %>%
+  socialmixr::contact_matrix(survey.pop = digaale_survey_population,
+                             age.limits = digaale_survey_population$lower.age.limit,
+                             symmetric = TRUE, weights = "survey_weight", weigh.dayofweek = TRUE)
+
+#' Note socialmixr's contact matrices show contactors in rows
+#'  and contactees in columns
+digaale_contact_matrix$matrix %>% round(1)
+```
+```
+contact.age.group
+     [0,10) [10,20) [20,30) [30,40) [40,50) [50,60) [60,70) [70,80)    80+
+[1,]    3.9     1.2     0.6     0.8     0.5     0.3     0.2     0.1     0.1
+[2,]    1.6     4.5     1.0     0.8     0.6     0.4     0.2     0.1     0.1
+[3,]    1.9     2.6     2.7     1.7     1.2     0.7     0.2     0.2     0.2
+[4,]    2.8     2.1     1.7     2.9     1.4     1.1     0.4     0.3     0.2
+[5,]    2.3     1.9     1.6     1.8     1.6     1.0     0.6     0.3     0.2
+[6,]    1.8     2.0     1.5     2.1     1.6     1.6     0.8     0.4     0.4
+[7,]    2.3     1.4     0.6     1.1     1.4     1.1     0.9     0.6     0.4
+[8,]    1.2     0.8     0.8     1.4     1.1     1.0     0.9     0.8     0.4
+[9,]    1.2     1.2     1.2     1.0     0.7     1.1     0.9     0.6     0.5
+```
