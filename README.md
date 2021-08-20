@@ -1,4 +1,4 @@
-# Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland
+# Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland. Data and analyses.
 
 This repository contains the data and code used for all analyses described in our manuscript:
 

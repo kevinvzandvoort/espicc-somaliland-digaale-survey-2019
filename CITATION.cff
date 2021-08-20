@@ -1,0 +1,74 @@
+# YAML 1.2
+---
+authors: 
+  -
+    affiliation: "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, United Kingdom"
+    family-names: "van Zandvoort"
+    given-names: Kevin
+    orcid: "https://orcid.org/0000-0002-7770-0537"
+  -
+    affiliation: "Save the Children International, Somaliland"
+    family-names: Bobe
+    given-names: "Mohamed Omer"
+  -
+    affiliation: "Republic of Somaliland Ministry of Health Development, Somaliland"
+    family-names: Hassan
+    given-names: "Abdirahman Ibrahim"
+  -
+    affiliation: "Save the Children International, Somaliland"
+    family-names: Abdi
+    given-names: "Mohamed Ismail"
+  -
+    affiliation: "Save the Children International, Somaliland"
+    family-names: Ahmed
+    given-names: "Mohamed Saed"
+  -
+    affiliation: "Republic of Somaliland Ministry of Health Development, Somaliland"
+    family-names: Warsame
+    given-names: "Mohamed Yusuf"
+  -
+    affiliation: "Save the Children International, Somaliland"
+    family-names: Wais
+    given-names: "Muna Awil"
+  -
+    affiliation: "Save the Children UK, United Kingdom"
+    family-names: Diggle
+    given-names: "Emma"
+  -
+    affiliation: "Murdoch Children's Research Institute, Australia"
+    family-names: Satzke
+    given-names: "Catherine"
+  -
+    affiliation: "Murdoch Children's Research Institute, Australia"
+    family-names: Mulholland
+    given-names: "Kim"
+  -
+    affiliation: "Save the Children International, Somaliland"
+    family-names: Egeh
+    given-names: "Mohamed Mohamoud"
+  -
+    affiliation: "Save the Children International, Somaliland"
+    family-names: Hassan
+    given-names: "Mukhtar Muhumed"
+  -
+    affiliation: "Republic of Somaliland Ministry of Health Development, Somaliland"
+    family-names: Hergeeye
+    given-names: "Mohamed Abdi"
+  -
+    affiliation: "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, United Kingdom"
+    family-names: "Eggo"
+    given-names: "Rosalind M"
+  -
+    affiliation: "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, United Kingdom"
+    family-names: "Checchi"
+    given-names: "Francesco"
+  -
+    affiliation: "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, United Kingdom"
+    family-names: "Flasche"
+    given-names: "Stefan"
+doi: "10.5281/zenodo.5225141"
+license: MIT
+message: "If you use this data, please cite it using these metadata."
+title: "Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland. Data and analyses."
+version: "v1.0.0"
+...
