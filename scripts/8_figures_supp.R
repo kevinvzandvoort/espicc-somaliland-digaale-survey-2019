@@ -230,7 +230,7 @@ figure_sC3_contact_bysex = contacts_sex_compare %>%
 dev.off()
 
 for(ext in c("png", "pdf"))
-  ggsave(sprintf("%s/output/figures/%s/figure_sC3_contact_bysex.%s", analysis_dir, ext, ext),
+  ggsave(sprintf("%s/output/figures/%s/figure_sC3_contact_bygender.%s", analysis_dir, ext, ext),
          plot = figure_sC3_contact_bysex, width = plot_single_col, height = plot_single_col*1.1, units = "in",
          dpi = 300)
 

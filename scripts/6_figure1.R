@@ -13,8 +13,8 @@ population_distribution_householdsize =
   theme(panel.grid.minor=element_blank())+
   theme_multiplot
 
-#' Create section B of plot: age- and sex-distribution of all included householdmembers
-#' - Note that this is used as a proxy for the age- and sex-distribution of the population in Digaale IDP camp
+#' Create section B of plot: age- and gender-distribution of all included householdmembers
+#' - Note that this is used as a proxy for the age- and gender-distribution of the population in Digaale IDP camp
 population_distribution_householdmembers = ggplot()+
   geom_bar(data = household_data_members_svy$variables[, .SD[, .(total = .N)],
                                                        by=c("household_member_sex", "age_group_80")] %>%
@@ -26,14 +26,14 @@ population_distribution_householdmembers = ggplot()+
            aes(x=age_group_80, y=total, fill=household_member_sex))+
   coord_flip()+
   scale_y_continuous(breaks=c(0, seq(-450, 450, 150)), labels=c(0, abs(seq(-450, 450, 150))), limits=c(-360,360))+
-  labs(x="Age group", y="People", fill="Sex", title="Population")+
+  labs(x="Age group", y="People", fill="Gender", title="Population")+
   geom_hline(yintercept=0)+
   scale_fill_manual(values=c("Female" = "#333333", "Male" = "#A7A8AA"))+
   theme_minimal()+
   theme(legend.position=c(0.85, 0.9))+
   theme_multiplot
 
-#' Create section C of plot: age- and sex-distribution of participants included in the (contact) survey
+#' Create section C of plot: age- and gender-distribution of participants included in the (contact) survey
 population_distribution_participants =
   ggplot(data = contact_data_frequency_ps$variables, aes(fill=participant_sex))+
   geom_bar(data = contact_data_frequency_ps$variables[, .SD[, .(total = .N)],
@@ -46,14 +46,14 @@ population_distribution_participants =
            aes(x=participant_age_group_80, y=total))+
   coord_flip()+
   scale_y_continuous(breaks=c(0, seq(-150, 150, 50)), labels=c(0, abs( seq(-150, 150, 50))), limits=c(-150, 150))+
-  labs(x="Age group", y="People", fill="Sex", title="Participants")+
+  labs(x="Age group", y="People", fill="Gender", title="Participants")+
   geom_hline(yintercept=0)+
   scale_fill_manual(values=c("Female" = "#333333", "Male" = "#A7A8AA"))+
   theme_minimal()+
   theme(legend.position = "none")+
   theme_multiplot
 
-#' Create section D of plot: age- and sex-distribution of contactees reported in the (contact) survey
+#' Create section D of plot: age- and gender-distribution of contactees reported in the (contact) survey
 population_distribution_contacts =
   ggplot(data = contact_data_contactees, aes(fill=contact_sex))+
   geom_bar(data = contact_data_contactees[, .SD[, .(total = .N)], by=c("contact_sex", "contact_age_group_80")] %>%
@@ -65,7 +65,7 @@ population_distribution_contacts =
   coord_flip()+
   scale_x_discrete(limits=age_groups_80[, name])+
   scale_y_continuous(breaks=c(0, seq(-750, 750, 250)), limits=c(-700,700), labels=c(0, abs( seq(-750, 750, 250))))+
-  labs(x="Age group", y="People", fill="Sex", title="Contactees")+
+  labs(x="Age group", y="People", fill="Gender", title="Contactees")+
   geom_hline(yintercept=0)+
   scale_fill_manual(values=c("Female" = "#333333", "Male" = "#A7A8AA"))+
   theme_minimal()+
