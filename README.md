@@ -2,7 +2,7 @@
 
 This repository contains the data and code used for all analyses described in our manuscript:
 
-Van Zandvoort K, Bobe MO, Hassan AI, Abdi MI, Ahmed MS, Warsame MY, Wais MA, Diggle E, Satzke C, Mulholland K, Egeh MM, Hassan MM, Hergeeye MA, Eggo RM, Checchi F, Flasche S, *Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland*. Available at <http://example.com>.
+Van Zandvoort K, Bobe MO, Hassan AI, Abdi MI, Ahmed MS, Warsame MY, Wais MA, Diggle E, Satzke C, Mulholland K, Egeh MM, Hassan MM, Hergeeye MA, Eggo RM, Checchi F, Flasche S, *Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland*. Available at <https://www.medrxiv.org/content/10.1101/2021.08.20.21262338v1>.
 
 This work is part of a larger study: Evaluating Strategies for Pneumococcal Immunization Campaigns in Crises [(ESPICC)](https://www.elrha.org/project/pneumococcal-vaccination-strategies-for-crisis-affected-populations/).
 
