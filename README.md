@@ -78,7 +78,7 @@ Figures and tables will be created in a newly formed `./output` folder
 ### Socialmixr
 
 The `./scripts/socialmixr_zenodo_data.R` script generates the data that can be used with the `socialmixr` package.
-This data has been uploaded to Zenodo: <"https://zenodo.org/record/5226281#.YR-TzlvTVH6">.
+This data has been uploaded to Zenodo: <https://zenodo.org/record/5226281#.YR-TzlvTVH6>.
 
 To use data in `socialmixr`:
 ```r
