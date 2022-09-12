@@ -24,6 +24,10 @@ authors:
     given-names: "Mohamed Saed"
   -
     affiliation: "Republic of Somaliland Ministry of Health Development, Somaliland"
+    family-names: Soleman
+    given-names: "Saeed Mohamood"
+  -
+    affiliation: "Republic of Somaliland Ministry of Health Development, Somaliland"
     family-names: Warsame
     given-names: "Mohamed Yusuf"
   -
@@ -34,6 +38,11 @@ authors:
     affiliation: "Save the Children UK, United Kingdom"
     family-names: Diggle
     given-names: "Emma"
+  -
+    affiliation: "Department of Public Health, Environments and Society, London School of Hygiene & Tropical Medicine, United Kingdom"
+    family-names: McGowan
+    given-names: "Catherine R"
+    orcid: "https://orcid.org/0000-0001-6941-6539"
   -
     affiliation: "Murdoch Children's Research Institute, Australia"
     family-names: Satzke
@@ -75,5 +84,5 @@ doi: "10.5281/zenodo.5225141"
 license: MIT
 message: "If you use this data, please cite it using these metadata."
 title: "Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland. Data and analyses."
-version: "v1.0.0"
+version: "v2.0.0"
 ...
