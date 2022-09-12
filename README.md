@@ -86,7 +86,7 @@ pacman::p_load(magrittr, socialmixr, data.table)
 
 #' Get data from Zenodo
 digaale_contact_data =
-  socialmixr::get_survey("https://zenodo.org/record/5226281#.YR-TzlvTVH6")
+  socialmixr::get_survey("https://zenodo.org/record/5226280")
 
 #' The estimated population size in Digaale (for provided age groups)
 #'  can manually be downloaded
