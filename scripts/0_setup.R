@@ -22,9 +22,11 @@ theme_multiplot = ggplot2::theme(legend.title = element_text(size=9), legend.tex
                                  plot.tag.position = c(0, 0.99), strip.text = element_text(face = "plain", size=9))
 
 #' Create output folders
-for(d in c("./output", "output/tables", "output/tables/pdf", "output/tables/html", "output/figures",
-           "output/figures/png", "output/figures/pdf"))
+for(d in c("/output", "/output/%s", "output/%s/tables", "output/%s/tables/pdf", "output/%s/tables/html", "output/%s/figures",
+           "output/%s/figures/png", "output/%s/figures/pdf") %>% sprintf(paste0("ps_", tolower(POSTSTRATIFICATION_STRATA))))
   sprintf("%s/%s", analysis_dir, d) %>% dir.create()
+
+OUTPUT_DIR = paste0("ps_", tolower(POSTSTRATIFICATION_STRATA))
 
 #' Load helper functions
 source(sprintf("%s/scripts/functions.R", analysis_dir))

@@ -1,14 +1,42 @@
 #' Estimate birth-, mortality-, and migration-rates
-m.birthrate = svyglm(formula=born~offset(log(follow_up_time)), design=household_data_members_rates_svy,
-                     family=poisson())
-m.migrate_in = svyglm(formula=migrate_in~offset(log(follow_up_time)), design=household_data_members_rates_svy,
-                      family=poisson())
-m.migrate_out = svyglm(formula=migrate_out~offset(log(follow_up_time)), design=household_data_members_rates_svy,
-                       family=poisson())
-m.mortality = svyglm(formula=death~offset(log(follow_up_time)), design=household_data_members_rates_svy,
-                     family=poisson())
-m.mortality.u5 = svyglm(formula=death~offset(log(follow_up_time)), design=subset(household_data_members_rates_svy,
-                                                                                 u5==TRUE), family=poisson())
+message("Estimating values from imputed datasets")
+message("Estimate birthrate...")
+m.birthrate = with(household_data_members_rates_svy_imp,
+                   svyglm(formula=born~offset(log(follow_up_time)), family=poisson())) %>% mitools::MIcombine()
+
+message("Estimate migration in...")
+m.migrate_in = with(household_data_members_rates_svy_imp,
+                   svyglm(formula=migrate_in~offset(log(follow_up_time)), family=poisson())) %>% mitools::MIcombine()
+
+message("Estimate migration out...")
+m.migrate_out = with(household_data_members_rates_svy_imp,
+                    svyglm(formula=migrate_out~offset(log(follow_up_time)), family=poisson())) %>% mitools::MIcombine()
+
+message("Estimate mortality rate...")
+m.mortality = with(household_data_members_rates_svy_imp,
+                     svyglm(formula=death~offset(log(follow_up_time)), family=poisson())) %>% mitools::MIcombine()
+
+message("Estimate mortality rate <5...")
+m.mortality.u5 = with(subset(household_data_members_rates_svy_imp, u5==TRUE),
+                   svyglm(formula=death~offset(log(follow_up_time)), family=poisson())) %>% mitools::MIcombine()
+
+message("Estimate mortality rate 6-14...")
+message("NOTE. Will produce warnings, as no deaths reported in this age-group. Analysis is still ran, and reported accordingly (0 deaths).")
+m.mortality.6t14 = with(subset(household_data_members_rates_svy_imp, !is.na(age_group_sample) & age_group_sample=="6-14"),
+                      svyglm(formula=death~offset(log(follow_up_time)), family=poisson())) %>% mitools::MIcombine()
+
+message("Estimate mortality rate 15-29...")
+m.mortality.15t29 = with(subset(household_data_members_rates_svy_imp, !is.na(age_group_sample) & age_group_sample=="15-29"),
+                      svyglm(formula=death~offset(log(follow_up_time)), family=poisson())) %>% mitools::MIcombine()
+
+message("Estimate mortality rate 30-49...")
+m.mortality.30t49 = with(subset(household_data_members_rates_svy_imp, !is.na(age_group_sample) & age_group_sample=="30-49"),
+                      svyglm(formula=death~offset(log(follow_up_time)), family=poisson())) %>% mitools::MIcombine()
+
+message("Estimate mortality rate 50+...")
+m.mortality.50p = with(subset(household_data_members_rates_svy_imp, !is.na(age_group_sample) & age_group_sample=="50+"),
+                      svyglm(formula=death~offset(log(follow_up_time)), family=poisson())) %>% mitools::MIcombine()
+
 #' Create the first section of table 1 (Demographic characteristics)
 table1.1 = rbind(
   data.table(
@@ -31,42 +59,78 @@ table1.1 = rbind(
     type = "IQR"),
   data.table(
     variable_name = "Crude birth rate (per 1000 per year)",
-    n = household_data_members_rates_svy$variables[, sum(born==1)],
+    n = household_data_members_rates_svy_imp[[1]][[1]]$variables[, sum(born==1)],
     mean = round(1000 * 12 * exp(coef(m.birthrate)), 1),
     confint_low = round(1000 * 12 * exp(confint(m.birthrate)[1]), 1),
     confint_high = round(1000 * 12 * exp(confint(m.birthrate)[2]), 1),
     type = "rate"),
   data.table(
     variable_name = "Crude death rate (per 1000 per year)",
-    n = household_data_members_rates_svy$variables[, sum(death==1)],
+    n = household_data_members_rates_svy_imp[[1]][[1]]$variables[, sum(death==1)],
     mean = round(1000 * 12 * exp(coef(m.mortality)), 1),
     confint_low = round(1000 * 12 * exp(confint(m.mortality)[1]), 1),
     confint_high = round(1000 * 12 * exp(confint(m.mortality)[2]), 1),
     type = "rate"),
   data.table(
-    variable_name = "Crude U5 death rate (per 1000 per year)",
-    n = household_data_members_rates_svy$variables[u5 == TRUE, sum(death==1)],
-    mean = round(1000 * 12 * exp(coef(m.mortality.u5)), 1),
-    confint_low = round(1000 * 12 * exp(confint(m.mortality.u5)[1]), 1),
-    confint_high = round(1000 * 12 * exp(confint(m.mortality.u5)[2]), 1),
-    type = "rate"),
-  data.table(
     variable_name = "Crude in-migration rate (per 1000 per year)",
-    n = household_data_members_rates_svy$variables[, sum(migrate_in==1)],
+    n = household_data_members_rates_svy_imp[[1]][[1]]$variables[, sum(migrate_in==1)],
     mean = round(1000 * 12 * exp(coef(m.migrate_in)), 1),
     confint_low = round(1000 * 12 * exp(confint(m.migrate_in)[1]), 1),
     confint_high = round(1000 * 12 * exp(confint(m.migrate_in)[2]), 1),
     type = "rate"),
   data.table(
     variable_name = "Crude out-migration rate (per 1000 per year)",
-    n = household_data_members_rates_svy$variables[, sum(migrate_out==1)],
+    n = household_data_members_rates_svy_imp[[1]][[1]]$variables[, sum(migrate_out==1)],
     mean = round(1000 * 12 * exp(coef(m.migrate_out)), 1),
     confint_low = round(1000 * 12 * exp(confint(m.migrate_out)[1]), 1),
     confint_high = round(1000 * 12 * exp(confint(m.migrate_out)[2]), 1),
     type = "rate"))
 table1.1[, heading := "Demographic characteristics"]
 
-rm("m.birthrate", "m.migrate_in", "m.migrate_out", "m.mortality", "m.mortality.u5")
+table1.1b = rbind(
+  data.table(
+    variable_name = "<5 years old",
+    n = household_data_members_rates_svy_imp[[1]][[1]]$variables[u5 == TRUE, sum(death==1)],
+    mean = round(1000 * 12 * exp(coef(m.mortality.u5)), 1),
+    confint_low = round(1000 * 12 * exp(confint(m.mortality.u5)[1]), 1),
+    confint_high = round(1000 * 12 * exp(confint(m.mortality.u5)[2]), 1),
+    type = "rate"),
+  data.table(
+    variable_name = "6-14 years old",
+    n = household_data_members_rates_svy_imp[[1]][[1]]$variables[!is.na(age_group_sample) & age_group_sample == "6-14", sum(death==1)],
+    mean = round(1000 * 12 * exp(coef(m.mortality.6t14)), 1),
+    confint_low = round(1000 * 12 * exp(confint(m.mortality.6t14)[1]), 1),
+    confint_high = round(1000 * 12 * exp(confint(m.mortality.6t14)[2]), 1),
+    type = "rate"),
+  data.table(
+    variable_name = "15-29 years old",
+    n = household_data_members_rates_svy_imp[[1]][[1]]$variables[!is.na(age_group_sample) & age_group_sample == "15-29", sum(death==1)],
+    mean = round(1000 * 12 * exp(coef(m.mortality.15t29)), 1),
+    confint_low = round(1000 * 12 * exp(confint(m.mortality.15t29)[1]), 1),
+    confint_high = round(1000 * 12 * exp(confint(m.mortality.15t29)[2]), 1),
+    type = "rate"),
+  data.table(
+    variable_name = "30-49 years old",
+    n = household_data_members_rates_svy_imp[[1]][[1]]$variables[!is.na(age_group_sample) & age_group_sample == "30-49", sum(death==1)],
+    mean = round(1000 * 12 * exp(coef(m.mortality.30t49)), 1),
+    confint_low = round(1000 * 12 * exp(confint(m.mortality.30t49)[1]), 1),
+    confint_high = round(1000 * 12 * exp(confint(m.mortality.30t49)[2]), 1),
+    type = "rate"),
+  data.table(
+    variable_name = "50+years old",
+    n = household_data_members_rates_svy_imp[[1]][[1]]$variables[!is.na(age_group_sample) & age_group_sample == "50+", sum(death==1)],
+    mean = round(1000 * 12 * exp(coef(m.mortality.50p)), 1),
+    confint_low = round(1000 * 12 * exp(confint(m.mortality.50p)[1]), 1),
+    confint_high = round(1000 * 12 * exp(confint(m.mortality.50p)[2]), 1),
+    type = "rate"))
+
+colnames(table1.1b) = c("variable_name", "n", "mean", "confint_low", "confint_high", "type")
+table1.1b[, heading := "Demographic characteristics"]
+table1.1b[, subheading := "Crude death rate by age (per 1000 per year)"]
+#table1.1b = table1.1b[order(variable_name)]
+#table1.8[, variable_name := paste0(variable_name, " years old")]
+
+rm("m.birthrate", "m.migrate_in", "m.migrate_out", "m.mortality", "m.mortality.u5", "m.mortality.6t14", "m.mortality.15t29", "m.mortality.30t49", "m.mortality.50p")
 
 #' Create the second section of table 1 (When did the household settle in Digaale)
 table1.2 = merge(
@@ -107,7 +171,6 @@ colnames(table1.4a) = c("variable_name", "subheading", "mean", "confint_low", "c
 table1.4a[, subheading := "Cooking fuel used"]
 table1.4a[, variable_name := factor(variable_name, c("house_fuel_charcoal","house_fuel_firewood"),
                                     c("Charcoal", "Firewood"))]
-
 table1.4b = merge(
   svyMean2(~house_ventilation, household_data_svy, multiply = 100, digits=1, na.rm=T) %>%
     .[option %in% c("cook outside", "yes", "no")],
@@ -182,8 +245,8 @@ table1.7[, variable_name := factor(variable_name,
 table1.7 = table1.7[order(subheading, variable_name)]
 
 #' Create the eigth section of table 1 (Self-reported pneumonia)
-table1.8 = merge(rbind(svyMean2(~pneumonia, participant_data_design_ps, na.rm=T, multiply = 100, digits=1,
-                                by="participant_age_group_sample")[option == T],
+table1.8 = merge(rbind(#svyMean2(~pneumonia, participant_data_design_ps, na.rm=T, multiply = 100, digits=1,
+                      #          by="participant_age_group_sample")[option == T],
                        svyMean2(~pneumonia_6m, participant_data_design_ps, na.rm=T, multiply = 100, digits=1,
                                 by="participant_age_group_sample")[option == T]),
                  melt(participant_data_design_ps$variables, measure.vars=c("pneumonia", "pneumonia_6m")) %>%
@@ -198,7 +261,7 @@ table1.8[, variable_name := paste0(variable_name, " years old")]
 
 #' Combine al sections in the table
 table1_characteristics_and_risk_factors =
-  rbind(table1.1, table1.2, table1.3, table1.4, table1.5, table1.6, table1.7, table1.8, fill=T, use.names=T) %>%
+  rbind(table1.1, table1.1b, table1.2, table1.3, table1.4, table1.5, table1.6, table1.7, table1.8, fill=T, use.names=T) %>%
   .[, c("heading", "subheading", "variable_name", "n", "mean", "confint_low", "confint_high", "type")]
 table1_characteristics_and_risk_factors[, confint := sprintf("%s - %s%s", pmax(0,confint_low), confint_high,
                                                              ifelse(type == "IQR", " (IQR)", ""))]
@@ -208,7 +271,7 @@ rm("table1.1", "table1.2", "table1.3", "table1.4", "table1.4a", "table1.4b", "ta
    "table1.8")
 
 #' Write the table to the output folder
-table1_characteristics_and_risk_factors[, c("heading", "subheading", "variable_name", "n", "mean_format",
+if(make_table) table1_characteristics_and_risk_factors[, c("heading", "subheading", "variable_name", "n", "mean_format",
                                             "confint")] %>%
   kblOut(booktabs=T, align=c("l","l","l","l","r","l"), linesep = "", col.names=c("", "", "", "total", "value", ""),
          other_functions = list(function(x) collapse_rows(x, 1:2, row_group_label_position = "stack",

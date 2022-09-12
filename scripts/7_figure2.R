@@ -95,16 +95,16 @@ figure2.4 = svyMean2(
 #' Create contact matrices (E and F in figure 2)
 
 #' Calculate sum of all sample weights by age (used in constructing contact matrices)
-n_contacts_sample_fpc_weighted = contact_data_frequency_ps$variables[, c("id", "participant_age_group_80")] %>%
+n_contacts_sample_fpc_weighted = contact_data_frequency_ps$variables[, c("id", "participant_age_group_60")] %>%
   cbind(weights(contact_data_frequency_ps)) %>%
   .[, weight := V2] %>% .[, -"V2"] %>%
-  .[, .SD[, .(total = sum(weight))], by="participant_age_group_80"] %>%
-  .[order(participant_age_group_80)]
+  .[, .SD[, .(total = sum(weight))], by="participant_age_group_60"] %>%
+  .[order(participant_age_group_60)]
 
 #' Population size by age (used in constructing contact matrices)
 n_population_size_fpc =
-  household_data_members_svy$variables[, .SD[, .(total = .N * fpc_inflate_N_factor)], by="age_group_80"] %>%
-  .[order(age_group_80)]
+  household_data_members_svy$variables[, .SD[, .(total = .N * fpc_inflate_N_factor)], by="age_group_60"] %>%
+  .[order(age_group_60)]
 
 #' Calculate the contact matrix (poststratified for age-sex and weighted for weekend and non-weekend days)
 contact_matrices_empirical_all_weighted =
@@ -112,26 +112,28 @@ contact_matrices_empirical_all_weighted =
   merge(contact_data_frequency_ps$variables[, "id"] %>%
           cbind(weights(contact_data_frequency_ps)) %>%
           .[, weight := V2] %>% .[, -"V2"], by="id") %>%
-  merge(participant_data_design_ps$variables[, c("contactor_id", "participant_age_group_80")], by.x="id",
+  merge(participant_data_design_ps$variables[, c("contactor_id", "participant_age_group_60")], by.x="id",
         by.y="contactor_id") %>%
-  .[!is.na(contact_age_group_80), c("participant_sex", "contact_sex", "participant_age_group_80",
-                                    "contact_age_group_80", "weight")] %>%
-  .[, c("contact_age_group", "participant_age_group") := .(contact_age_group_80, participant_age_group_80)] %>%
+  .[!is.na(contact_age_group_60), c("participant_sex", "contact_sex", "participant_age_group_60",
+                                    "contact_age_group_60", "weight")] %>%
+  .[, c("contact_age_group", "participant_age_group") := .(contact_age_group_60, participant_age_group_60)] %>%
   dcast(contact_age_group ~ participant_age_group, value.var = "weight", fun.aggregate = sum) %>%
   .[, -"contact_age_group"] %>% as.matrix() %>%
   constructContactMatrix(n_contacts_sample_fpc_weighted[, total], n_population_size_fpc[, total])
 contacts_all_weighted = reshapeCM(contact_matrices_empirical_all_weighted$rate_adjusted,
-                                  age_groups_80[, age_group := name])
+                                  age_groups_60[, age_group := name])
 
 #' Create section E of figure 2: contact matrix
 figure2.5_weighted = contacts_all_weighted %>%
   ggplot(aes(
-    y=factor(contact_age_group, age_groups_80[, name]), x=factor(part_age_group, age_groups_80[, name]), fill=value))+
+    y=factor(contact_age_group, age_groups_60[, name]), x=factor(part_age_group, age_groups_60[, name]), fill=value))+
   geom_tile()+
   labs(y="Age contactee", x="Age contactor", fill="Contact rate", title="Mean contacts per day")+
-  scale_fill_gradientn(colors=c("#0D5257", "#00BF6F", "#07e88a", "#8af5c8", "#ffe09a", "#FFB81C", "#FE5000"),
-                       na.value = "#A7A8AA", values = scales::rescale(quantile(contacts_all_weighted[, value],
-                                                                              c(0, 0.25, 0.5, 0.6, 0.7, 0.8, 0.9, 1))))+
+  #scale_fill_gradientn(colors=c("#0D5257", "#00BF6F", "#07e88a", "#8af5c8", "#ffe09a", "#FFB81C", "#FE5000"),
+  #                     na.value = "#A7A8AA", values = scales::rescale(quantile(contacts_all_weighted[, value],
+  #                                                                            c(0, 0.25, 0.5, 0.6, 0.7, 0.8, 0.9, 1))))+
+  scale_fill_viridis(option = "D", values = scales::rescale(quantile(contacts_all_weighted[, value])),
+                     labels = function(x) sprintf("%.1f", x))+
     theme_multiplot+
     theme(legend.position=c(0.5, -0.3), axis.text.x = element_text(angle = 45, vjust=1, hjust = 1),
           legend.title = element_blank(), legend.direction = "horizontal",
@@ -140,16 +142,18 @@ figure2.5_weighted = contacts_all_weighted %>%
           panel.background = element_rect(fill = "#FFFFFF"))
 
 #' Create section F of figure 2: per-capita contact matrix
-contacts_all_per_capita_weighted = reshapeCM(contact_matrices_empirical_all_weighted$prob, age_groups_80)
+contacts_all_per_capita_weighted = reshapeCM(contact_matrices_empirical_all_weighted$prob, age_groups_60)
 figure2.6_weighted = contacts_all_per_capita_weighted %>%
-  ggplot(aes(y=factor(contact_age_group, age_groups_80[, name]), x=factor(part_age_group, age_groups_80[, name]),
+  ggplot(aes(y=factor(contact_age_group, age_groups_60[, name]), x=factor(part_age_group, age_groups_60[, name]),
              fill=value * 1000))+
   geom_tile()+
   labs(y="Age contactee",x="Age contactor",fill="Per capita\ncontact rate",
        title="Contact rate per 1000 per day")+
-  scale_fill_gradientn(colors=c("#32006E", "#1E22AA", "#858dd5", "#3EBFAC", "#EFE048", "#F9BE00", "#ff5000"),
-                       na.value = "#A7A8AA", values = scales::rescale(
-                         quantile(contacts_all_per_capita_weighted[, value], c(0, 0.25, 0.5, 0.6, 0.7, 0.8, 0.9, 1))))+
+  #scale_fill_gradientn(colors=c("#32006E", "#1E22AA", "#858dd5", "#3EBFAC", "#EFE048", "#F9BE00", "#ff5000"),
+  #                     na.value = "#A7A8AA", values = scales::rescale(
+  #                       quantile(contacts_all_per_capita_weighted[, value], c(0, 0.25, 0.5, 0.6, 0.7, 0.8, 0.9, 1))))+
+  scale_fill_viridis(option = "C", values = scales::rescale(quantile(contacts_all_weighted[, value])),
+                     labels = function(x) sprintf("%.1f", x))+
     theme_multiplot+
     theme(legend.position=c(0.5, -0.3), axis.text.x = element_text(angle = 45, vjust=1, hjust = 1),
           legend.title = element_blank(), legend.direction = "horizontal",
@@ -175,10 +179,39 @@ layout <- c(
 dev.off()
 
 for(ext in c("png", "pdf"))
-  ggsave(sprintf("%s/output/figures/%s/figure2_contacts.%s", analysis_dir, ext, ext),
+  ggsave(sprintf("%s/output/%s/figures/%s/figure2_contacts.%s", analysis_dir, OUTPUT_DIR, ext, ext),
          plot = figure2_contacts, width = plot_double_col, height = plot_double_col*0.9, units = "in", dpi = 300)
 
-rm("contact_matrices_empirical_all_weighted", "contacts_all_per_capita_weighted", "contacts_all_weighted", "E_AC_ratio",
+#x11(width = (34.8-1)/2.54, height = (34.8-1)/2.54 * (8/16))
+#(plot_poster = wrap_elements(full = figure2.5_weighted+theme(legend.position = "bottom", legend.key.width = unit(2, "cm"),
+#                                              axis.text = element_text(size = 14),
+#                                              legend.text = element_text(size=14),
+#                                              axis.title = element_text(size = 18),
+#                                              text = element_text(size = 14),
+#                                              strip.text = element_text(size = 18),
+#                                              title = element_text(size = 18),
+#                                              plot.title = element_text(face = "bold", size=18),
+#                                              legend.title = element_text(face = "bold")))+
+#  wrap_elements(full = figure2.6_weighted+theme(legend.position = "bottom", legend.key.width = unit(2, "cm"),
+#                                                axis.text = element_text(size = 14),
+#                                                legend.text = element_text(size=14),
+#                                                axis.title = element_text(size = 18),
+#                                                text = element_text(size = 14),
+#                                                strip.text = element_text(size = 18),
+#                                                title = element_text(size = 18),
+#                                                plot.title = element_text(face = "bold", size=18),
+#                                                legend.title = element_text(face = "bold")))+
+#  plot_annotation(tag_levels = "A")&
+#  theme(
+#        plot.margin = unit(c(0.1, 0, -0.9, 0), "cm"), plot.tag = element_text(size=18, face="bold")))
+#ggsave(filename = "~/workspace/espicc_poster.jpg", width = (34.8-1)/2.54, height = (34.8-1)/2.54 * (8/16), dpi=300)
+
+#' Calculate total number of expected population-wide contacts, without adjusting for reciprocity
+#' - used in 8_figures_supp.R
+total_population_contacts_unadjusted = contact_matrices_empirical_all_weighted$rate_unadjusted %*% diag(n_population_size_fpc[, total])
+colnames(total_population_contacts_unadjusted) = age_groups_60[, age_group]
+
+rm("contact_matrices_empirical_all_weighted", "contacts_all_per_capita_weighted", "E_AC_ratio",
    "figure2.1", "figure2.2", "figure2.3", "figure2.4", "figure2.5_weighted", "figure2.6_weighted", "layout",
    "rel_width")
 

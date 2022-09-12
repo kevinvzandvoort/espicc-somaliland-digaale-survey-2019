@@ -122,7 +122,7 @@ regression[is.na(ci_low) | is.na(ci_high), ci_format := NA_character_]
 regression[type == "continuous", c("option", "variable") := .(variable, NA_character_)]
 table_sD1_regression_pneumonia = regression[, c("category", "variable", "option", "est", "ci_format", "pval")]
 
-table_sD1_regression_pneumonia %>%
+if(make_table) table_sD1_regression_pneumonia %>%
   kblOut(booktabs=T, align=c("l", "l","l","l", "l","l"), linesep = "",
          col.names=c("", "Variable", "", "OR", "95% CI", "p-value"), other_functions = list(
            function(x) collapse_rows(x, 1:2, row_group_label_position = "stack",
@@ -166,12 +166,43 @@ regression[type == "continuous", c("option", "variable") := .(variable, NA_chara
 
 table_sD2_regression_pneumonia_6m = regression[, c("category", "variable", "option", "est", "ci_format", "pval")]
 
-table_sD2_regression_pneumonia_6m %>%
+if(make_table) table_sD2_regression_pneumonia_6m %>%
   kblOut(booktabs=T, align=c("l", "l","l","l", "l","l"), linesep = "",
          col.names=c("", "Variable", "", "OR", "95% CI", "p-value"), other_functions = list(
            function(x) collapse_rows(x, 1:2, row_group_label_position = "stack",
                                      row_group_label_fonts = list(list(bold=T, italic=T), list(bold=F, italic=T))),
            function(x) kable_styling(x, latex_options = "scale_down")), out_name = "table_sD2_regression_pneumonia_6m")
+
+#' We also create a table to show the outcome measures
+table_sD0_pneumonia_outcome = merge(rbind(svyMean2(~pneumonia, participant_data_design_ps, na.rm=T, multiply = 100, digits=1,
+                                by="participant_age_group_sample")[option == T],
+  svyMean2(~pneumonia_6m, participant_data_design_ps, na.rm=T, multiply = 100, digits=1,
+           by="participant_age_group_sample")[option == T]),
+  melt(participant_data_design_ps$variables, measure.vars=c("pneumonia", "pneumonia_6m")) %>%
+    .[, .SD[!is.na(value), .(n=.N), by="value"], by=c("variable", "participant_age_group_sample")] %>%
+    .[value == TRUE, -"value"], by=c("variable", "participant_age_group_sample"))
+colnames(table_sD0_pneumonia_outcome) = c("subheading", "variable_name", "heading", "mean", "confint_low", "confint_high", "n")
+table_sD0_pneumonia_outcome[, heading := "Cumulative incidence of self reported pneumonia"]
+table_sD0_pneumonia_outcome[, type := "percentage"]
+table_sD0_pneumonia_outcome[, subheading := factor(subheading, c("pneumonia", "pneumonia_6m"), c("Ever", "In the last six months"))]
+table_sD0_pneumonia_outcome = table_sD0_pneumonia_outcome[order(subheading)]
+table_sD0_pneumonia_outcome[, variable_name := paste0(variable_name, " years old")]
+
+#' Combine al sections in the table
+table_sD0_pneumonia_outcome = table_sD0_pneumonia_outcome %>%
+  .[, c("heading", "subheading", "variable_name", "n", "mean", "confint_low", "confint_high", "type")]
+table_sD0_pneumonia_outcome[, confint := sprintf("%s - %s%s", pmax(0,confint_low), confint_high,
+                                                             ifelse(type == "IQR", " (IQR)", ""))]
+table_sD0_pneumonia_outcome[, mean_format := ifelse(type == "percentage", sprintf("%s%%", mean), mean)]
+
+#' Write the table to the output folder
+if(make_table) table_sD0_pneumonia_outcome[, c("heading", "subheading", "variable_name", "n", "mean_format", "confint")] %>%
+  kblOut(booktabs=T, align=c("l","l","l","l","r","l"), linesep = "", col.names=c("", "", "", "total", "value", ""),
+         other_functions = list(function(x) collapse_rows(x, 1:2, row_group_label_position = "stack",
+                                                          row_group_label_fonts = list(list(bold=T, italic=T),
+                                                                                       list(bold=F, italic=T))),
+                                function(x) kable_styling(x, latex_options = "scale_down")),
+         out_name = "table_sD0_pneumonia_outcome")
 
 rm("covariates_all", "covariates_categories", "covariates_u5", "outcome", "pneumonia_6m_age_cat", "pneumonia_age_cat",
    "priori_conf_all", "priori_conf_u5", "regression", "regression_all", "regression_u5")

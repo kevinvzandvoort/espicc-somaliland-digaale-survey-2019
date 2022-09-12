@@ -53,7 +53,8 @@ table_sB1_vacant_households = survey_shelters_notpresent_included_srs$variables[
   .[,c("status", "N", "prop_format", "prop_format_ci", "total_format", "total_format_ci")] %>%
   rbind(.[, .(status="Total", N=sum(N), total_format=sum(total_format))], fill = TRUE, use.names = TRUE)
 
-table_sB1_vacant_households %>%
+
+if(make_table) table_sB1_vacant_households %>%
   kblOut(col.names = c("Status of shelters not present", "n", "%", "(95% CI)", "N", "(95% CI)"),
            align = c("l|", "l|", "r", "l", "|r", "l"), booktabs = TRUE, out_name = "table_sB1_vacant_households")
 
@@ -66,7 +67,7 @@ table_sB2_households_visited = data.table(type = c("Total shelters in Digaale", 
                                    n_shelters_consented/n_shelters_present) %>%
                                sapply(function(x) sprintf("%s%%", round(x * 100, 0)))))
 
-table_sB2_households_visited %>%
+if(make_table) table_sB2_households_visited %>%
   kblOut(col.names = c("Shelters", "N", "%"), align = c("l|", "l|", "l"), booktabs = TRUE,
            out_name = "table_sB2_households_visited")
 

@@ -83,7 +83,7 @@ x11(width = plot_double_col, height = plot_double_col/1.6)
 dev.off()
 
 for(ext in c("png", "pdf"))
-  ggsave(sprintf("%s/output/figures/%s/figure1_demographics.%s", analysis_dir, ext, ext),
+  ggsave(sprintf("%s/output/%s/figures/%s/figure1_demographics.%s", analysis_dir, OUTPUT_DIR, ext, ext),
          plot = figure1_demographics, width = plot_double_col, height = plot_double_col/1.6, units = "in", dpi = 300)
 
 rm("population_distribution_householdsize", "population_distribution_householdmembers", "population_distribution_participants", "population_distribution_contacts")

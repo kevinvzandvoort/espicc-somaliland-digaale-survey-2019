@@ -137,7 +137,7 @@ totalAgePairs <- function(households){
 
 #' Wrapper around kableExtra::kable
 kblOut = function(data, formats = c(pdf = "latex", html = "html"), out_name = NULL,
-                  out_dir = sprintf("%s/output/tables", analysis_dir), align, other_functions = NULL, ...){
+                  out_dir = sprintf("%s/output/%s/tables", analysis_dir, OUTPUT_DIR), align, other_functions = NULL, ...){
   for(f in 1:length(formats)){
     falign = switch(formats[f], "html" = gsub("|", "", align, fixed=T), align)
     k = kbl(data, format = formats[f], align = falign, ...)

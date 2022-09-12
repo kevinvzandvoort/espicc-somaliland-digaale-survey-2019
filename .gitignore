@@ -5,3 +5,4 @@ zenodo_socialmixr
 zenodo_socialmixr/*
 data/data_dictionary.csv
 data/~$data_dictionary.xlsx
+index_contactmatrix.R
