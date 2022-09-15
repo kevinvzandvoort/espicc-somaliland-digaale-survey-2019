@@ -2,7 +2,7 @@
 
 This repository contains the data and code used for all analyses described in our manuscript:
 
-Van Zandvoort K, Bobe MO, Hassan AI, Abdi MI, Ahmed MS, Warsame MY, Wais MA, Diggle E, Satzke C, Mulholland K, Egeh MM, Hassan MM, Hergeeye MA, Eggo RM, Checchi F, Flasche S, *Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland*. Available at <https://www.medrxiv.org/content/10.1101/2021.08.20.21262338v1>.
+Van Zandvoort K, Bobe MO, Hassan AI, Abdi MI, Ahmed MS, Soleman MS, Warsame MY, Wais MA, Diggle E, McGowan CR, Satzke C, Mulholland K, Egeh MM, Hassan MM, Hergeeye MA, Eggo RM, Checchi F, Flasche S, *Social contacts and other risk factors for respiratory infections among internally displaced people in Somaliland*. Available at <https://doi.org/10.1016/j.epidem.2022.100625>.
 
 This work is part of a larger study: Evaluating Strategies for Pneumococcal Immunization Campaigns in Crises [(ESPICC)](https://www.elrha.org/project/pneumococcal-vaccination-strategies-for-crisis-affected-populations/).
 
@@ -78,7 +78,7 @@ Figures and tables will be created in a newly formed `./output` folder
 ### Socialmixr
 
 The `./scripts/socialmixr_zenodo_data.R` script generates the data that can be used with the `socialmixr` package.
-This data has been uploaded to Zenodo: <https://zenodo.org/record/5226281#.YR-TzlvTVH6>.
+This data has been uploaded to Zenodo: <https://doi.org/10.5281/zenodo.5226280>.
 
 To use data in `socialmixr`:
 ```r
