@@ -91,7 +91,7 @@ digaale_contact_data =
 #' The estimated population size in Digaale (for provided age groups)
 #'  can manually be downloaded
 digaale_survey_population =
-  data.table::fread("https://zenodo.org/record/5226280/files/espicc_somaliland_digaale_survey_population.csv")
+  data.table::fread("https://zenodo.org/record/7071876/files/espicc_somaliland_digaale_survey_population.csv")
 
 #' Note that weekends fall on Fridays and Saturdays in Somaliland.
 #' - The dayofweek variable provided in the dataset has been kept
